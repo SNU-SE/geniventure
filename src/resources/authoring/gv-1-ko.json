@@ -1,0 +1,3147 @@
+{
+  "application": {
+    "levels": [
+      {
+        "missions": [
+          {
+            "challenges": [
+              {
+                "about": {
+                  "description": "Students create drakes with different traits (arms, legs, wings) by selecting alleles from pulldown menus and changing the sex of the drakes. To complete the challenge, students must create five different looking drakes and save them to their stable.",
+                  "type": "Drake Builder"
+                },
+                "dialog": {
+                  "end": {
+                    "failure": [
+                      {
+                        "character": "YEUNG",
+                        "text": "해냈지만 크리스탈을 얻기엔 너무 많은 이동을 했어요. 다시 시도해 봅시다!"
+                      }
+                    ],
+                    "success": [
+                      {
+                        "character": "YEUNG",
+                        "text": "우리 훈련생이 시뮬레이터를 성공했어요, 해치 박사님!"
+                      },
+                      {
+                        "character": "HATCH",
+                        "text": "훌륭해요, 훈련생! 이제 여러분은 우리 팀의 일원입니다! 그리고 획득한 크리스탈을 확인해 보세요."
+                      },
+                      {
+                        "character": "YEUNG",
+                        "text": "우리는 이 크리스탈들을 사용해서 용을 치료하고 번식시키는 장치에 동력을 공급합니다. 빨간 크리스탈은 약하고, 노란 크리스탈은 조금 더 강하며, 파란 크리스탈이 가장 강력합니다. 우리의 전력을 강화하고 방어를 확보하기 위해 가능한 많은 힘이 필요합니다."
+                      }
+                    ]
+                  },
+                  "start": [
+                    {
+                      "character": "YEUNG",
+                      "text": "만나서 반갑습니다, 훈련생! 저는 양 교수이고 시뮬레이션 룸을 담당하고 있어요."
+                    },
+                    {
+                      "character": "YEUNG",
+                      "text": "여기에서 유전자를 조작해서 다르게 생긴 드레이크들을 만들 수 있습니다."
+                    },
+                    {
+                      "character": "HATCH",
+                      "text": "여러분의 임무는 5마리의 고유한 드레이크를 만들 수 있다는 것을 보여주는 것입니다. 각 드레이크는 다른 드레이크들과 달라야 해요."
+                    },
+                    {
+                      "character": "YEUNG",
+                      "text": "Remember, we learn what we can from drakes and then apply what we’ve learned to dragons. Click the purple screen to get started!"
+                    }
+                  ]
+                },
+                "id": "allele-5drakes-tutorial",
+                "name": "Challenge 1.1.1",
+                "room": "simroom"
+              }
+            ],
+            "dialog": {
+              "end": [
+                {
+                  "character": "HATCH",
+                  "text": "훈련생, 대립유전자를 바꿔서 드레이크의 형질을 변화시키는 법을 터득하고 있군요."
+                },
+                {
+                  "character": "WEAVER",
+                  "text": "다음 미션으로 넘어갈 시간입니다 - 우리 용 조종사들을 도와주세요."
+                }
+              ],
+              "middle": [
+                {
+                  "character": "YEUNG",
+                  "text": "모든 것을 완료한 것 같네요! 도전과제를 다시 하고 싶다면 벤처맵을 여세요."
+                }
+              ],
+              "start": [
+                {
+                  "character": "HATCH",
+                  "text": "환영합니다, 훈련생! 저는 드레이크 사육가 길드의 책임자 해치 박사입니다."
+                },
+                {
+                  "character": "WEAVER",
+                  "text": "그리고 저는 위버 박사입니다. 이 지하 기지 중심부의 미션 컨트롤 책임자죠."
+                },
+                {
+                  "character": "HATCH",
+                  "text": "여기 와이번 공화국에서는 우리 용들이 사악한 다크웰 왕국의 공격을 받고 있으며 멸종 위기에 처해 있습니다!"
+                },
+                {
+                  "character": "WEAVER",
+                  "text": "여러분은 용들을 멸종 위기에서 구해낼 엘리트 과학자 팀의 일원이 되기 위한 훈련을 받게 됩니다!"
+                },
+                {
+                  "character": "HATCH",
+                  "text": "시간이 얼마 없습니다. 빨리 훈련을 시작해야 해요! 시뮬레이션 룸으로 가시죠. 벤처패드를 클릭해서 기지를 이동하세요."
+                }
+              ]
+            },
+            "name": "Mission 1.1"
+          },
+          {
+            "challenges": [
+              {
+                "about": {
+                  "description": "Students match a target drake by selecting alleles from a pulldown menu. The drake that the student is creating is visible to the student while they are manipulating the alleles. The manipulable alleles are limited to wings, arms and legs (all simple dominance).",
+                  "tip": "Students may not notice that the neck flap only appears on male drakes. Students will only receive a blue crystal if they create the drake in the fewest moves possible.",
+                  "type": "Visible Drake Match"
+                },
+                "dialog": {
+                  "end": {
+                    "failure": [
+                      {
+                        "character": "YEUNG",
+                        "text": "해냈지만 크리스탈을 얻기엔 너무 많은 이동을 했어요."
+                      }
+                    ],
+                    "success": [
+                      {
+                        "character": "YEUNG",
+                        "text": "좋아요, 훈련생! 크리스탈의 가치를 기억하세요: 빨강이 가장 약하고, 노랑은 중간이고, 파란 크리스탈이 가장 강력합니다."
+                      }
+                    ]
+                  },
+                  "start": [
+                    {
+                      "character": "HERRERA",
+                      "text": "이제 대립유전자를 효율적으로 바꾸는 법을 배워야 합니다. 기억하세요, 대립유전자는 유전자의 다른 버전입니다!"
+                    },
+                    {
+                      "character": "YEUNG",
+                      "text": "시뮬레이터 화면에 보이는 목표 드레이크와 일치하도록 필요한 곳의 대립유전자를 바꾸세요."
+                    },
+                    {
+                      "character": "HERRERA",
+                      "text": "Each allele change is a move. And it’s critical that you do it in as few moves as possible! So tap on the purple simulator screen to start."
+                    }
+                  ]
+                },
+                "id": "allele-targetMatch-visible-simpleDom",
+                "name": "Challenge 1.2.1",
+                "room": "simroom"
+              },
+              {
+                "about": {
+                  "description": "Students match a target drake by selecting alleles from a pulldown menu. The drake that the student is creating is visible to the student while they are manipulating the alleles. The manipulable alleles are limited to wings, arms and legs (all simple dominance).",
+                  "tip": "Students may not notice that the neck flap only appears on male drakes. Students will only receive a blue crystal if they create the drake in the fewest moves possible.",
+                  "type": "Visible Drake Match"
+                },
+                "dialog": {
+                  "end": {
+                    "failure": [
+                      {
+                        "character": "YEUNG",
+                        "text": "해냈지만 크리스탈을 얻기엔 너무 많은 이동을 했어요."
+                      }
+                    ],
+                    "success": [
+                      {
+                        "character": "YEUNG",
+                        "text": "훈련생, 우리 용을 치료하고 번식시키는 장치에 동력을 공급하기 위해 가능한 많은 파란 크리스탈이 필요하다는 것을 기억하세요."
+                      }
+                    ]
+                  },
+                  "start": [
+                    {
+                      "character": "HERRERA",
+                      "text": "확실히 이해했는지 확인해 봅시다, 훈련생! 이걸 시도해 보세요. 화면을 클릭해서 시작하세요."
+                    }
+                  ]
+                },
+                "id": "allele-targetMatch-visible-simpleDom2",
+                "name": "Challenge 1.2.2",
+                "room": "simroom"
+              },
+              {
+                "about": {
+                  "description": "Students will match a target drake by selecting alleles from a pulldown menu. The drake that the student is creating will be invisible to the student while they are manipulating the alleles. The manipulable alleles are limited to wings, arms and legs (all simple dominance).",
+                  "tip": "Students may not notice that the neck flap only appears on male drakes. Students will only receive a blue crystal if they create the drake in the fewest moves possible.",
+                  "type": "Visible Drake Match"
+                },
+                "dialog": {
+                  "end": {
+                    "failure": [
+                      {
+                        "character": "YEUNG",
+                        "text": "해냈지만 크리스탈을 얻기엔 너무 많은 이동을 했어요."
+                      }
+                    ],
+                    "success": [
+                      {
+                        "character": "YEUNG",
+                        "text": "좋아요, 훈련생 — 한 번 더. 화면을 클릭하고... 결승선을 통과하세요!"
+                      },
+                      {
+                        "character": "HERRERA",
+                        "text": "양 교수님 화이팅, 정말 불타오르고 있어요!"
+                      }
+                    ]
+                  },
+                  "start": [
+                    {
+                      "character": "HERRERA",
+                      "text": "좋아요, 훈련생! 변화구를 맞을 준비가 됐나요?"
+                    },
+                    {
+                      "character": "YEUNG",
+                      "text": "You don’t get to see how your drake looks until you submit your answer!"
+                    },
+                    {
+                      "character": "HERRERA",
+                      "text": "Make it through these and you’re starting to play in the big leagues!"
+                    },
+                    {
+                      "character": "YEUNG",
+                      "text": "에레라, 모든 게 스포츠 비유인가요?"
+                    },
+                    {
+                      "character": "HERRERA",
+                      "text": "What can I say, Yeung? I’m a team player. Give it a shot."
+                    },
+                    {
+                      "character": "YEUNG",
+                      "text": "*한숨* 좋아요, 훈련생. 공은 당신의... 코트에 있어요. 어, 홈런을 칠 수 있는지 봅시다...?"
+                    },
+                    {
+                      "character": "HERRERA",
+                      "text": "양이 슛! 득점입니다!"
+                    }
+                  ]
+                },
+                "id": "allele-targetMatch-hidden-simpleDom",
+                "name": "Challenge 1.2.3",
+                "room": "simroom"
+              },
+              {
+                "about": {
+                  "description": "Students will match a target drake by selecting alleles from a pulldown menu. The drake that the student is creating will be invisible to the student while they are manipulating the alleles. The manipulable alleles are limited to wings, arms and legs (all simple dominance).",
+                  "tip": "Students may not notice that the neck flap only appears on male drakes. Students will only receive a blue crystal if they create the drake in the fewest moves possible.",
+                  "type": "Invisible Drake Match"
+                },
+                "dialog": {
+                  "end": {
+                    "failure": [
+                      {
+                        "character": "YEUNG",
+                        "text": "해냈지만 크리스탈을 얻기엔 너무 많은 이동을 했어요."
+                      }
+                    ],
+                    "success": [
+                      {
+                        "character": "YEUNG",
+                        "text": "Okay, Cadet. Now let’s take a time out!"
+                      },
+                      {
+                        "character": "HERRERA",
+                        "text": "양의 또 다른 터치다운! 하하! 한 가지 작은 문제만 빼면요 — 우리 좀 급해요. 그냥 말하는 거예요."
+                      }
+                    ]
+                  },
+                  "start": [
+                    {
+                      "character": "HERRERA",
+                      "text": "미션이 거의 끝났어요... 할 수 있다는 걸 알아요. 화면을 클릭해서 시작하세요."
+                    }
+                  ]
+                },
+                "id": "allele-targetMatch-hidden-simpleDom2",
+                "name": "Challenge 1.2.4",
+                "room": "simroom"
+              }
+            ],
+            "dialog": {
+              "end": [
+                {
+                  "character": "YEUNG",
+                  "text": "You have been learning the key skill of manipulating alleles efficiently."
+                },
+                {
+                  "character": "HERRERA",
+                  "text": "By changing the versions of genes, you can now help us select the alleles we need when breeding dragons."
+                },
+                {
+                  "character": "HATCH",
+                  "text": "By completing this level, you’ve earned access to: the Chromoscope."
+                },
+                {
+                  "character": "WEAVER",
+                  "text": "The Chromoscope checks and displays chromosome alleles for each drake. It will be invaluable in your next missions!"
+                },
+                {
+                  "character": "HATCH",
+                  "text": "Speaking of which..."
+                }
+              ],
+              "middle": [
+                {
+                  "character": "YEUNG",
+                  "text": "Open your VentureMap and head on over to the Sim Room. Quickly! We don’t have much time!"
+                }
+              ],
+              "start": [
+                {
+                  "character": "HERRERA",
+                  "text": "Attention, Cadet! I’m Colonel Herrera, commander of the dragon pilots! We’re losing the war to preserve our dragons against Darkwell, so I will be leading a sneaky mission behind enemy lines!"
+                },
+                {
+                  "character": "YEUNG",
+                  "text": "We need your help understanding how to breed different drakes so that we can then breed dragons that help Colonel Herrera and his squad!"
+                },
+                {
+                  "character": "HERRERA",
+                  "text": "I hear you’ve been training and show lots of promise! So let’s go and see if you can knock a few out of the park!"
+                },
+                {
+                  "character": "YEUNG",
+                  "text": "Open your VentureMap and head on over there with us. Quickly! We don’t have much time!"
+                }
+              ]
+            },
+            "name": "Mission 1.2"
+          }
+        ]
+      },
+      {
+        "missions": [
+          {
+            "challenges": [
+              {
+                "about": {
+                  "description": "Students examine the genotypes of eggs, deduce the trait(s) and sex of the drake, and sort them into the appropriate baskets by traits. Students receive a point for each correctly sorted egg, and a hint for incorrectly sorted eggs. Students sort eggs based only on wings (dominant trait).",
+                  "tip": "Students may not notice that the X and Y chromosomes are different lengths. The Y, only appearing in males, is the shorter chromosome.",
+                  "type": "Egg Drop"
+                },
+                "dialog": {
+                  "end": {
+                    "failure": [
+                      {
+                        "character": "NETANYA",
+                        "text": "You got there, but you need to sort more drakes correctly to earn a crystal."
+                      }
+                    ],
+                    "success": [
+                      {
+                        "character": "NETANYA",
+                        "text": "Good, those pet drakes will sell fast!"
+                      },
+                      {
+                        "character": "HERRERA",
+                        "text": "And we’ll also use those winged drakes to carry hidden messages to our allies in the Principality of Robinstow. It’s the only way to communicate without the Darkwellians listening in."
+                      }
+                    ]
+                  },
+                  "start": [
+                    {
+                      "character": "HERRERA",
+                      "text": "We’re short on cash and need to sell a few thousand wingless drakes as pets for toddlers."
+                    },
+                    {
+                      "character": "NETANYA",
+                      "text": "Yeah, winged drakes sometimes give toddlers unexpected rides that go up about a quarter mile in the sky."
+                    },
+                    {
+                      "character": "HERRERA",
+                      "text": "They love it! But the parents, not so much. And it’s bad enough that the flying drakes, um, expel their waste from way up there, but, uh, let’s just say a freaked out toddler can drop one heck of a load from a thousand feet."
+                    },
+                    {
+                      "character": "HERRERA",
+                      "text": "So, we have to sort out four kinds of drake eggs – fast! Females with wings, females without wings, males with wings, and males without wings."
+                    },
+                    {
+                      "character": "NETANYA",
+                      "text": "See the baskets and the big lineup of eggs? Click over there and get sorting!"
+                    }
+                  ]
+                },
+                "id": "eggDrop-wings",
+                "name": "Challenge 2.1.1",
+                "room": "hatchery"
+              },
+              {
+                "about": {
+                  "description": "Students examine the genotypes of eggs, deduce the trait(s) and sex of the drake, and sort them into the appropriate baskets by traits. The purpose is to test the students' knowledge of dominance and recall of traits with no visual cues. Students receive one point for each correctly sorted egg, and a hint for incorrectly sorted eggs. Students sort eggs based on both arms and legs (both dominant traits).",
+                  "tip": "Students may not notice that the X and Y chromosomes are different lengths. The Y, only appearing in males, is the shorter chromosome.",
+                  "type": "Egg Drop"
+                },
+                "dialog": {
+                  "end": {
+                    "failure": [
+                      {
+                        "character": "NETANYA",
+                        "text": "You got there, but you need to sort more drakes correctly to earn a crystal."
+                      }
+                    ],
+                    "success": [
+                      {
+                        "character": "NETANYA",
+                        "text": "You know, Herrera, those legs-only drakes are useful, too. They develop really strong, fast legs, and we need to study them so we can breed cavalry mount dragons."
+                      },
+                      {
+                        "character": "HERRERA",
+                        "text": "Sure. By the way, those arms-only, burrowing drakes can also do a great job at wrecking a golf course! Remind me to tell you about the prank we played on Darkwell when they hosted last year’s Evil Empires Golf Open."
+                      },
+                      {
+                        "character": "NETANYA",
+                        "text": "Maybe later, Colonel. Cadet, let’s get going!"
+                      }
+                    ]
+                  },
+                  "start": [
+                    {
+                      "character": "NETANYA",
+                      "text": "Hey Cadet! We need you to help us breed some drakes for farming!"
+                    },
+                    {
+                      "character": "HERRERA",
+                      "text": "Here’s the deal. The Darkwellians have ruined all of Wyvern’s crops. The Kingdom of Bloomberg has offered to grow extra crops for us, but they don’t have the resources for tilling all the extra fields. So we need to give them drakes that only have arms."
+                    },
+                    {
+                      "character": "NETANYA",
+                      "text": "Arms-only drakes naturally burrow in soil and can help prepare fields for crops. It’s like they swim through it!"
+                    },
+                    {
+                      "character": "HERRERA",
+                      "text": "We need to quickly sort out three kinds of eggs – those with arms only, those with legs only, and those with both."
+                    },
+                    {
+                      "character": "NETANYA",
+                      "text": "Eggs-actly! Okay, yeah, sorry, I couldn't help myself. So, go to it—tap the baskets and start sorting!"
+                    }
+                  ]
+                },
+                "id": "eggDrop-limbs",
+                "name": "Challenge 2.1.2",
+                "room": "hatchery"
+              }
+            ],
+            "dialog": {
+              "end": [
+                {
+                  "character": "HERRERA",
+                  "text": "Oh no! I’m getting reports that Darkwell has found out about the secret messages we send via flying drakes to the Principality of Robinstow!"
+                },
+                {
+                  "character": "NETANYA",
+                  "text": "What? It must be those spies! If only we knew who they were!"
+                },
+                {
+                  "character": "HERRERA",
+                  "text": "Well, it gets even worse. They also know that the Kingdom of Bloomberg was going to grow crops for us. Darkwell is  going to kill two birds with one stone by polluting the skies."
+                },
+                {
+                  "character": "NETANYA",
+                  "text": "Now our drakes won’t be able to fly to Robinstow, and Bloomberg’s crops will be ruined."
+                },
+                {
+                  "character": "HERRERA",
+                  "text": "Things are pretty grim, Cadet. We already had a couple of strikes against us, and we’re not gonna have many more chances at bat."
+                }
+              ],
+              "middle": [
+                {
+                  "character": "NETANYA",
+                  "text": "Activate your VentureMap and come help us in the Hatchery."
+                }
+              ],
+              "start": [
+                {
+                  "character": "HERRERA",
+                  "text": "Listen up, Cadet! This is for your ears only! Aboveground, there’s a tunnel to this underground base, hidden in an innocent-looking little cottage."
+                },
+                {
+                  "character": "NETANYA",
+                  "text": "That cottage is home to the Drake Breeders’ Guild. I run our veterinary clinic and pet store there! The money made by the store helps pay for the secret work we do down here."
+                },
+                {
+                  "character": "HERRERA",
+                  "text": "The Darkwellians have no idea that the Guild is just a front. The thing is, we suddenly need a lot more drakes than usual…"
+                },
+                {
+                  "character": "NETANYA",
+                  "text": "…And if a ton of drakes start coming and going from the cottage, the Darkwellians will get suspicious. So activate your VentureMap and come help us in the Hatchery."
+                }
+              ]
+            },
+            "name": "Mission 2.1"
+          },
+          {
+            "challenges": [
+              {
+                "about": {
+                  "description": "Students match a target drake by selecting alleles from a pulldown menu. The drake that the student is creating is visible. The manipulable alleles are limited to horns (recessive trait) and armor (incomplete dominance).",
+                  "tip": "Students may be confused by horns being a recessive trait. Students may not immediately see the difference between 3-plate and 5-plate armor.",
+                  "type": "Visible Drake Match"
+                },
+                "dialog": {
+                  "end": {
+                    "failure": [
+                      {
+                        "character": "YEUNG",
+                        "text": "해냈지만 크리스탈을 얻기엔 너무 많은 이동을 했어요."
+                      }
+                    ],
+                    "success": [
+                      {
+                        "character": "YEUNG",
+                        "text": "Make sure you're getting it. Twice more should do the trick."
+                      }
+                    ]
+                  },
+                  "start": [
+                    {
+                      "character": "HERRERA",
+                      "text": "For my undercover operation against the Darkwellians, I need the toughest dragons we can create. I want dragons with horns and five armor plates."
+                    },
+                    {
+                      "character": "YEUNG",
+                      "text": "And for the Guild store, super-charging the cuddle factor will maximize profit! Drakes without horns or armor will sell the best."
+                    },
+                    {
+                      "character": "HERRERA",
+                      "text": "Start by breeding drakes on the simulator. You’ll be changing the alleles to create a drake that matches the target in as few moves as possible. Click the screen to begin."
+                    }
+                  ]
+                },
+                "id": "allele-targetMatch-visible-armorHorns",
+                "name": "Challenge 2.2.1",
+                "room": "simroom"
+              },
+              {
+                "about": {
+                  "description": "Students match a target drake by selecting alleles from a pulldown menu. The drake that the student is creating is visible. The manipulable alleles are limited to horns (recessive trait) and armor (incomplete dominance).",
+                  "tip": "Students may be confused by horns being a recessive trait. Students may not immediately see the difference between 3-plate and 5-plate armor.",
+                  "type": "Visible Drake Match"
+                },
+                "dialog": {
+                  "end": {
+                    "failure": [
+                      {
+                        "character": "YEUNG",
+                        "text": "해냈지만 크리스탈을 얻기엔 너무 많은 이동을 했어요."
+                      }
+                    ],
+                    "success": [
+                      {
+                        "character": "YEUNG",
+                        "text": "Third time's a charm... Good luck!"
+                      }
+                    ]
+                  },
+                  "start": [
+                    {
+                      "character": "HERRERA",
+                      "text": "Plates! Horns! You can do it."
+                    }
+                  ]
+                },
+                "id": "allele-targetMatch-visible-armorHorns2",
+                "name": "Challenge 2.2.2",
+                "room": "simroom"
+              },
+              {
+                "about": {
+                  "description": "Students match a target drake by selecting alleles from a pulldown menu. The drake that the student is creating is visible. The manipulable alleles are limited to horns (recessive trait) and armor (incomplete dominance).",
+                  "tip": "Students may be confused by horns being a recessive trait. Students may not immediately see the difference between 3-plate and 5-plate armor.",
+                  "type": "Visible Drake Match"
+                },
+                "dialog": {
+                  "end": {
+                    "failure": [
+                      {
+                        "character": "YEUNG",
+                        "text": "해냈지만 크리스탈을 얻기엔 너무 많은 이동을 했어요."
+                      }
+                    ],
+                    "success": [
+                      {
+                        "character": "YEUNG",
+                        "text": "Congratulations, Cadet. With your work, our chance of saving the Wyvern Republic dragons is growing every day!"
+                      }
+                    ]
+                  },
+                  "start": [
+                    {
+                      "character": "HERRERA",
+                      "text": "Here we go again! Keep on keepin' on, Cadet."
+                    }
+                  ]
+                },
+                "id": "allele-targetMatch-visible-armorHorns3",
+                "name": "Challenge 2.2.3",
+                "room": "simroom"
+              }
+            ],
+            "dialog": {
+              "end": [
+                {
+                  "character": "HATCH",
+                  "text": "The Guild store is turning a great profit selling the cute new drakes we’ve been breeding!"
+                },
+                {
+                  "character": "WEAVER",
+                  "text": "That's enough practice on the new genes. It's time to see whether you've really got this down!"
+                }
+              ],
+              "middle": [
+                {
+                  "character": "HERRERA",
+                  "text": "Open your VentureMap!"
+                }
+              ],
+              "start": [
+                {
+                  "character": "HERRERA",
+                  "text": "My elite team of pilots needs powerful dragons that can hold their own in battle if we are to have any chance of defeating Darkwell."
+                },
+                {
+                  "character": "YEUNG",
+                  "text": "And I just heard from Dr. Netanya that customers at the Guild store are complaining that our drakes with armor don’t make great pets. She’s asking whether we can make “cuddlier” drakes to raise more money."
+                },
+                {
+                  "character": "HERRERA",
+                  "text": "Let’s tackle both of these needs at once. Cadet, open your VentureMap and start cuddling! The drakes, I mean; making them cuddlier. "
+                }
+              ]
+            },
+            "name": "Mission 2.2"
+          },
+          {
+            "challenges": [
+              {
+                "about": {
+                  "description": "Students match a target drake by selecting alleles from a pulldown menu. The drake that the student is creating is unseen. The manipulable alleles are limited to horns (recessive trait) and armor (incomplete dominance).",
+                  "tip": "Students may find it difficult to work with horns as a recessive trait.",
+                  "type": "Invisible Drake Match"
+                },
+                "dialog": {
+                  "end": {
+                    "failure": [
+                      {
+                        "character": "YEUNG",
+                        "text": "해냈지만 크리스탈을 얻기엔 너무 많은 이동을 했어요."
+                      }
+                    ],
+                    "success": [
+                      {
+                        "character": "HERRERA",
+                        "text": "Was that just luck?"
+                      }
+                    ]
+                  },
+                  "start": [
+                    {
+                      "character": "YEUNG",
+                      "text": "Get ready to step it up again — time to show us you know your genes and alleles!"
+                    },
+                    {
+                      "character": "HERRERA",
+                      "text": "Don't forget about my pilots! We need dragons with horns to steer and steady ourselves while flying."
+                    }
+                  ]
+                },
+                "id": "allele-targetMatch-hidden-armorHorns",
+                "name": "Challenge 2.3.1",
+                "room": "simroom"
+              },
+              {
+                "about": {
+                  "description": "Students match a target drake by selecting alleles from a pulldown menu. The drake that the student is creating is unseen. The manipulable alleles are limited to horns (recessive trait) and armor (incomplete dominance).",
+                  "tip": "Students may find it difficult to work with horns as a recessive trait.",
+                  "type": "Invisible Drake Match"
+                },
+                "dialog": {
+                  "end": {
+                    "failure": [
+                      {
+                        "character": "YEUNG",
+                        "text": "해냈지만 크리스탈을 얻기엔 너무 많은 이동을 했어요."
+                      }
+                    ],
+                    "success": [
+                      {
+                        "character": "YEUNG",
+                        "text": "Not bad. And yet, not done! One mo' time."
+                      }
+                    ]
+                  },
+                  "start": [
+                    {
+                      "character": "YEUNG",
+                      "text": "Practice makes perfect. Go for it."
+                    }
+                  ]
+                },
+                "id": "allele-targetMatch-hidden-armorHorns2",
+                "name": "Challenge 2.3.2",
+                "room": "simroom"
+              },
+              {
+                "about": {
+                  "description": "Students match a target drake by selecting alleles from a pulldown menu. The drake that the student is creating is unseen. The manipulable alleles are limited to horns (recessive trait) and armor (incomplete dominance).",
+                  "tip": "Students may find it difficult to work with horns as a recessive trait.",
+                  "type": "Invisible Drake Match"
+                },
+                "dialog": {
+                  "end": {
+                    "failure": [
+                      {
+                        "character": "YEUNG",
+                        "text": "해냈지만 크리스탈을 얻기엔 너무 많은 이동을 했어요."
+                      }
+                    ],
+                    "success": [
+                      {
+                        "character": "HERRERA",
+                        "text": "Cadet, we've just learned of a need for hornless fivers— I mean, hornless dragons with five armor plates! They are way more docile than those with horns. The Guild could use some of these dragons for armored transport."
+                      },
+                      {
+                        "character": "YEUNG",
+                        "text": "And it won’t be long before our new cadet here can turn that into reality by transferring the knowledge from the simulators to real drakes and dragons."
+                      }
+                    ]
+                  },
+                  "start": [
+                    {
+                      "character": "HERRERA",
+                      "text": "OK Cadet. Show us what you've got!"
+                    }
+                  ]
+                },
+                "id": "allele-targetMatch-hidden-armorHorns3",
+                "name": "Challenge 2.3.3",
+                "room": "simroom"
+              },
+              {
+                "about": {
+                  "description": "Students examine the genotype of eggs and sort them into the appropriate baskets. Students receive one point for each correctly sorted egg, and a hint for incorrectly sorted eggs. Students will sort eggs based only on horns (recessive trait).",
+                  "type": "Egg Drop"
+                },
+                "dialog": {
+                  "end": {
+                    "failure": [
+                      {
+                        "character": "YEUNG",
+                        "text": "You got there, but you need to sort more drakes correctly to earn a crystal."
+                      }
+                    ],
+                    "success": [
+                      {
+                        "character": "YEUNG",
+                        "text": "You're on the way. Keep trying your best!"
+                      }
+                    ]
+                  },
+                  "start": [
+                    {
+                      "character": "YEUNG",
+                      "text": "Okay, Cadet, time to fire up the Chromoscope! We’re working with actual drake eggs here in the hatchery."
+                    },
+                    {
+                      "character": "HERRERA",
+                      "text": "Get real— by clicking on the baskets and eggs."
+                    }
+                  ]
+                },
+                "id": "eggDrop-horns",
+                "name": "Challenge 2.3.4",
+                "room": "hatchery"
+              },
+              {
+                "about": {
+                  "description": "Students will examine the genotype of eggs and sort them into the appropriate baskets. Students receive one point for each correctly sorted egg, and a hint for incorrectly sorted eggs. Students will sort eggs based only on armor (incomplete dominance).",
+                  "type": "Egg Drop"
+                },
+                "dialog": {
+                  "end": {
+                    "failure": [
+                      {
+                        "character": "YEUNG",
+                        "text": "You got there, but you need to sort more drakes correctly to earn a crystal."
+                      }
+                    ],
+                    "success": [
+                      {
+                        "character": "YEUNG",
+                        "text": "Impressive work, Cadet. We have a new set of drakes to sell in the store…"
+                      },
+                      {
+                        "character": "HERRERA",
+                        "text": "...and a better understanding of how to breed dragons with five armor plates. You’re a natural hatcher, a master drake designer, a..."
+                      },
+                      {
+                        "character": "YEUNG",
+                        "text": "Just stop. You’re out of your league, here, Herrera. Despite our progress here, we’re still one step behind the Darkwellians..."
+                      }
+                    ]
+                  },
+                  "start": [
+                    {
+                      "character": "YEUNG",
+                      "text": "Get ready for more! You’ll need to sort softies, the drakes with no armor, and those three-plated roller drakes. Netanya's pet store is running low."
+                    },
+                    {
+                      "character": "HERRERA",
+                      "text": "And watch out for fivers. Whether transport dragon or flyer, that's the way to go."
+                    }
+                  ]
+                },
+                "id": "eggDrop-armor",
+                "name": "Challenge 2.3.5",
+                "room": "hatchery"
+              }
+            ],
+            "dialog": {
+              "end": [
+                {
+                  "character": "HATCH",
+                  "text": "Cadet, I’m impressed at how quickly you jumped from the simulations to working with real drake eggs."
+                },
+                {
+                  "character": "WEAVER",
+                  "text": "All these new crystals are powering our dragon-breeding and healing machines for longer than ever."
+                },
+                {
+                  "character": "HATCH",
+                  "text": "Our dragon force is on its way to being unstoppable!"
+                }
+              ],
+              "middle": [
+                {
+                  "character": "HERRERA",
+                  "text": "Open your VentureMap!"
+                }
+              ],
+              "start": [
+                {
+                  "character": "YEUNG",
+                  "text": "Customers at the pet store are loving the roller drakes with three plates— they roll themselves into a ball and scoot across the room! "
+                },
+                {
+                  "character": "HERRERA",
+                  "text": "That's the drakes, not the customers, right Professor?! Good— while we test our Cadet's mettle, we can meet that demand."
+                }
+              ]
+            },
+            "name": "Mission 2.3"
+          }
+        ]
+      },
+      {
+        "missions": [
+          {
+            "challenges": [
+              {
+                "about": {
+                  "description": "Students will match a series of target drakes by selecting alleles from a pulldown menu. The drake that the student is creating will be visible to the student while they are manipulating the alleles. Colors shown in the series of target drakes will include charcoal, steel, lava, copper, and albino. Shiny is dominant to dull (copper and steel). Gray is dominant to orange (charcoal and steel vs. lava and copper). Albino is a recessive, epistatic trait.",
+                  "tip": "Students may not be familiar with epistatic traits. If a drake is albino/albino, no other color alleles will affect the color of the drake.",
+                  "type": "Visible Drake Match"
+                },
+                "dialog": {
+                  "end": {
+                    "failure": [
+                      {
+                        "character": "YEUNG",
+                        "text": "You got there, but you'll need to do better to earn a crystal!."
+                      }
+                    ],
+                    "success": [
+                      {
+                        "character": "HERRERA",
+                        "text": "Practice makes perfect. Keep it up!"
+                      }
+                    ]
+                  },
+                  "start": [
+                    {
+                      "character": "YEUNG",
+                      "text": "Listen up, Cadet! You need to get up to speed on breeding drakes and dragons with five different scale colors. Each color is an invaluable tool for the Guild."
+                    },
+                    {
+                      "character": "HERRERA",
+                      "text": "We'll give you pointers about the colors along the way. Are you ready?"
+                    }
+                  ]
+                },
+                "id": "allele-targetMatch-visible-simpleColors",
+                "name": "Challenge 3.1.1",
+                "room": "simroom"
+              },
+              {
+                "about": {
+                  "description": "Students will match a series of target drakes by selecting alleles from a pulldown menu. The drake that the student is creating will be visible to the student while they are manipulating the alleles. Colors shown in the series of target drakes will include charcoal, steel, lava, copper, and albino. Shiny is dominant to dull (copper and steel). Gray is dominant to orange (charcoal and steel vs. lava and copper). Albino is a recessive, epistatic trait.",
+                  "tip": "Students may not be familiar with epistatic traits. If a drake is albino/albino, no other color alleles will affect the color of the drake.",
+                  "type": "Visible Drake Match"
+                },
+                "dialog": {
+                  "end": {
+                    "failure": [
+                      {
+                        "character": "YEUNG",
+                        "text": "You got there, but you'll need to do better to earn a crystal!."
+                      }
+                    ],
+                    "success": [
+                      {
+                        "character": "HERRERA",
+                        "text": "Not bad. But you've still got a ways to go."
+                      }
+                    ]
+                  },
+                  "start": [
+                    {
+                      "character": "YEUNG",
+                      "text": "All five colors have similarities and differences. Pay attention and you'll benefit in advanced Missions."
+                    },
+                    {
+                      "character": "HERRERA",
+                      "text": "Case in point: whether a dragon is charcoal gray or lava orange, its lack of shine is important for flying undetected at night."
+                    }
+                  ]
+                },
+                "id": "allele-targetMatch-visible-simpleColors2",
+                "name": "Challenge 3.1.2",
+                "room": "simroom"
+              },
+              {
+                "about": {
+                  "description": "Students will match a series of target drakes by selecting alleles from a pulldown menu. The drake that the student is creating will be visible to the student while they are manipulating the alleles. Colors shown in the series of target drakes will include charcoal, steel, lava, copper, and albino. Shiny is dominant to dull (copper and steel). Gray is dominant to orange (charcoal and steel vs. lava and copper). Albino is a recessive, epistatic trait.",
+                  "tip": "Students may not be familiar with epistatic traits. If a drake is albino/albino, no other color alleles will affect the color of the drake.",
+                  "type": "Visible Drake Match"
+                },
+                "dialog": {
+                  "end": {
+                    "failure": [
+                      {
+                        "character": "YEUNG",
+                        "text": "You got there, but you'll need to do better to earn a crystal!."
+                      }
+                    ],
+                    "success": [
+                      {
+                        "character": "YEUNG",
+                        "text": "When the top layer of scale cells is empty of color, it reflects light."
+                      }
+                    ]
+                  },
+                  "start": [
+                    {
+                      "character": "HERRERA",
+                      "text": "Copper and steel drake and dragon scales are shiny. What makes their scales do that?"
+                    }
+                  ]
+                },
+                "id": "allele-targetMatch-visible-simpleColors3",
+                "name": "Challenge 3.1.3",
+                "room": "simroom"
+              },
+              {
+                "about": {
+                  "description": "Students will match a series of target drakes by selecting alleles from a pulldown menu. The drake that the student is creating will be visible to the student while they are manipulating the alleles. Colors shown in the series of target drakes will include charcoal, steel, lava, copper, and albino. Shiny is dominant to dull (copper and steel). Gray is dominant to orange (charcoal and steel vs. lava and copper). Albino is a recessive, epistatic trait.",
+                  "tip": "Students may not be familiar with epistatic traits. If a drake is albino/albino, no other color alleles will affect the color of the drake.",
+                  "type": "Visible Drake Match"
+                },
+                "dialog": {
+                  "end": {
+                    "failure": [
+                      {
+                        "character": "YEUNG",
+                        "text": "You got there, but you'll need to do better to earn a crystal!."
+                      }
+                    ],
+                    "success": [
+                      {
+                        "character": "HERRERA",
+                        "text": "Here's the last one where you can see the drake."
+                      }
+                    ]
+                  },
+                  "start": [
+                    {
+                      "character": "HERRERA",
+                      "text": "OK, I get it. Frost drakes and dragons are albino, so— no color at all in those scales. And boy do they shine."
+                    }
+                  ]
+                },
+                "id": "allele-targetMatch-visible-simpleColors4",
+                "name": "Challenge 3.1.4",
+                "room": "simroom"
+              },
+              {
+                "about": {
+                  "description": "Students will match a series of target drakes by selecting alleles from a pulldown menu. The drake that the student is creating will be visible to the student while they are manipulating the alleles. Colors shown in the series of target drakes will include charcoal, steel, lava, copper, and albino. Shiny is dominant to dull (copper and steel). Gray is dominant to orange (charcoal and steel vs. lava and copper). Albino is a recessive, epistatic trait.",
+                  "tip": "Students may not be familiar with epistatic traits. If a drake is albino/albino, no other color alleles will affect the color of the drake.",
+                  "type": "Visible Drake Match"
+                },
+                "dialog": {
+                  "end": {
+                    "failure": [
+                      {
+                        "character": "YEUNG",
+                        "text": "You got there, but you'll need to do better to earn a crystal!."
+                      }
+                    ],
+                    "success": [
+                      {
+                        "character": "HERRERA",
+                        "text": "That about does it for five easy colors, Cadet! And our allies in Admar will be truly grateful once we are able to breed albino drakes and dragons."
+                      },
+                      {
+                        "character": "YEUNG",
+                        "text": "In Admar, albino dragons are sacred, and our lucrative trade deal with them depends on us sharing that secret."
+                      }
+                    ]
+                  },
+                  "start": [
+                    {
+                      "character": "YEUNG",
+                      "text": "After this one you'll have to up your game. Hey, did you see what I did there? Where's Herrera when you need him??"
+                    },
+                    {
+                      "character": "HERRERA",
+                      "text": "No worries, Professor, I heard you. You get extra credit for your sports analogy!"
+                    }
+                  ]
+                },
+                "id": "allele-targetMatch-visible-simpleColors5",
+                "name": "Challenge 3.1.5",
+                "room": "simroom"
+              },
+              {
+                "about": {
+                  "description": "Students will match a series of target drakes by selecting alleles from a pulldown menu. The drake that the student is creating will be invisible to the student while they are manipulating the alleles. Students will match 3 drakes with randomly selected from these five colors charcoal, steel, lava, copper, and albino. Shiny is dominant to dull (copper and steel). Gray is dominant to orange (charcoal and steel vs. lava and copper). Albino is a recessive, epistatic trait. If a drake is albino/albino, no other color will be present.",
+                  "tip": "Students may not be familiar with epistatic traits. If a drake is albino/albino, no other color alleles will affect the color of the drake.",
+                  "type": "Invisible Drake Match"
+                },
+                "dialog": {
+                  "end": {
+                    "failure": [
+                      {
+                        "character": "YEUNG",
+                        "text": "You got there, but you'll need to do better to earn a crystal!."
+                      }
+                    ],
+                    "success": [
+                      {
+                        "character": "YEUNG",
+                        "text": "Here we go, let's keep working."
+                      }
+                    ]
+                  },
+                  "start": [
+                    {
+                      "character": "HERRERA",
+                      "text": "True story about upping your game, Cadet. In this simulation, we’re going to gauge your accuracy at creating different colored drakes just by viewing the target."
+                    },
+                    {
+                      "character": "YEUNG",
+                      "text": "Our allies in the volcanic islands of Sawaki need lava dragons that can blend in with the landscape and serve as a defense force."
+                    },
+                    {
+                      "character": "HERRERA",
+                      "text": "In exchange for several tons of papayas, which the Guild turns into biofuel, we'll provide Sawaki with lava dragons… once we figure out how to breed them! Let’s go!"
+                    }
+                  ]
+                },
+                "id": "allele-targetMatch-hidden-simpleColors",
+                "name": "Challenge 3.1.6",
+                "room": "simroom"
+              },
+              {
+                "about": {
+                  "description": "Students will match a series of target drakes by selecting alleles from a pulldown menu. The drake that the student is creating will be invisible to the student while they are manipulating the alleles. Students will match 3 drakes with randomly selected from these five colors charcoal, steel, lava, copper, and albino. Shiny is dominant to dull (copper and steel). Gray is dominant to orange (charcoal and steel vs. lava and copper). Albino is a recessive, epistatic trait. If a drake is albino/albino, no other color will be present.",
+                  "tip": "Students may not be familiar with epistatic traits. If a drake is albino/albino, no other color alleles will affect the color of the drake.",
+                  "type": "Invisible Drake Match"
+                },
+                "dialog": {
+                  "end": {
+                    "failure": [
+                      {
+                        "character": "YEUNG",
+                        "text": "You got there, but you'll need to do better to earn a crystal!."
+                      }
+                    ],
+                    "success": [
+                      {
+                        "character": "YEUNG",
+                        "text": "Keep practicing, we always need blue crystals!"
+                      }
+                    ]
+                  },
+                  "start": [
+                    {
+                      "character": "HERRERA",
+                      "text": "Let's go, you know the drill - luck isn't good enough."
+                    }
+                  ]
+                },
+                "id": "allele-targetMatch-hidden-simpleColors2",
+                "name": "Challenge 3.1.7",
+                "room": "simroom"
+              },
+              {
+                "about": {
+                  "description": "Students will match a series of target drakes by selecting alleles from a pulldown menu. The drake that the student is creating will be invisible to the student while they are manipulating the alleles. Students will match 3 drakes with randomly selected from these five colors charcoal, steel, lava, copper, and albino. Shiny is dominant to dull (copper and steel). Gray is dominant to orange (charcoal and steel vs. lava and copper). Albino is a recessive, epistatic trait. If a drake is albino/albino, no other color will be present.",
+                  "tip": "Students may not be familiar with epistatic traits. If a drake is albino/albino, no other color alleles will affect the color of the drake.",
+                  "type": "Invisible Drake Match"
+                },
+                "dialog": {
+                  "end": {
+                    "failure": [
+                      {
+                        "character": "YEUNG",
+                        "text": "You got there, but you'll need to do better to earn a crystal!."
+                      }
+                    ],
+                    "success": [
+                      {
+                        "character": "YEUNG",
+                        "text": "You’re coming along. And it won’t be long before we’re able to breed lava-colored drakes and dragons."
+                      },
+                      {
+                        "character": "HERRERA",
+                        "text": "They have a natural immunity to a parasitic worm the Darkwellians have unleashed on dragons, so the Guild plans to isolate that immunity and create a cure."
+                      }
+                    ]
+                  },
+                  "start": [
+                    {
+                      "character": "HERRERA",
+                      "text": "You're close. Show us one more time."
+                    }
+                  ]
+                },
+                "id": "allele-targetMatch-hidden-simpleColors3",
+                "name": "Challenge 3.1.8",
+                "room": "simroom"
+              }
+            ],
+            "dialog": {
+              "end": [
+                {
+                  "character": "HATCH",
+                  "text": "Cadet, your skills are increasing rapidly. I’m very impressed."
+                },
+                {
+                  "character": "WEAVER",
+                  "text": "Our allies in Admar and Sawaki are encouraged with the progress the Guild is making in breeding dragons to help the cause."
+                },
+                {
+                  "character": "HATCH",
+                  "text": "By completing the mission, Cadet, you’ve unlocked access to the Zoom Room Projector, a vital tool that simulates the inner workings of drakes and dragons."
+                }
+              ],
+              "middle": [
+                {
+                  "character": "HATCH",
+                  "text": "Open your VentureMap and head on over to the Sim Room. Quickly! We don’t have much time!"
+                }
+              ],
+              "start": [
+                {
+                  "character": "WEAVER",
+                  "text": "Things just got a whole lot tougher, Cadet! We’ve just heard that some of the dragons that the Guild supplied to our allies are also under attack from the Darkwellians."
+                },
+                {
+                  "character": "HATCH",
+                  "text": "It’ll stretch our resources even further, but we have to help our allies and their dragons as well."
+                },
+                {
+                  "character": "WEAVER",
+                  "text": "I agree. We need to start breeding dragons with specific traits to counter the targeted attacks the Darkwellians have been staging."
+                },
+                {
+                  "character": "HATCH",
+                  "text": "We’re going to need you to stay sharp, Cadet. Check out the VentureMap to see what you should tackle first."
+                }
+              ]
+            },
+            "name": "Mission 3.1"
+          },
+          {
+            "challenges": [
+              {
+                "about": {
+                  "description": "Students simply observe a drake’s changing skin color from albino to lava to charcoal by watching a single mela-pod grow. The process of making stars with protein enzymes is key, and this gives students the opportunity to observe the process with fully functioning proteins. Optionally, students can speed up the process by feeding triangles into the mela-maker enzymes, which make stars out of the triangles. As the mela-pod fills with stars (melanin), it grows in size and changes from white (no melanin) to orange (some melanin) to  gray to reach the target color (charcoal).",
+                  "tip": "Students do not need to make any actions on the screen in this tutorial challenge. The mela-pod will grow without any student action in order to show the process of making melanin stars.",
+                  "type": "Melanosome Size Game"
+                },
+                "dialog": {
+                  "end": {
+                    "failure": [
+                      {
+                        "character": "ELLIS",
+                        "text": "You got there, but you'll need to do better to earn a crystal!"
+                      }
+                    ],
+                    "success": [
+                      {
+                        "character": "ELLIS",
+                        "text": "Get ready – you will need to work with those four protein moves to change the color of the scale cells. Different moves have different effects."
+                      }
+                    ]
+                  },
+                  "start": [
+                    {
+                      "character": "ELLIS",
+                      "text": "Welcome to the Zoom Room! We study drake skin cells here to find out how the different colors come to be."
+                    },
+                    {
+                      "character": "ELLIS",
+                      "text": "You will use our simulator to zoom into a drake's skin cells. There you will find the biological machines that make the color. They are called proteins."
+                    },
+                    {
+                      "character": "HERRERA",
+                      "text": "First we'll show you how to work with the proteins. Some of them look like gears, others like connectors. You'll see."
+                    },
+                    {
+                      "character": "ELLIS",
+                      "text": "You can learn 4 different ways to change how the proteins work. Click the projection screen to start zooming in."
+                    }
+                  ]
+                },
+                "id": "cell-game-size-intro",
+                "name": "Challenge 3.2.1",
+                "room": "zoomroom"
+              },
+              {
+                "about": {
+                  "description": "Students change a drake’s scale color from lava-orange to charcoal-gray by interacting with the proteins in a mela-pod. As they play, students will notice that the mela-helper protein is broken and quickly falls off the mela-maker, which results in fewer stars and a half-size, lava color mela-pod. To get the drake from lava to charcoal, students will need to help the broken protein to function better,  increasing the size of the mela-pod. Dragging broken mela-helper proteins back onto the mela-maker enzyme to hold it together will allow the rate of star synthesis to increase.",
+                  "tip": "This can be a tricky challenge! The broken mela-helper proteins will only hold the mela-maker enzyme together for a short time. Students should try to keep as many mela-maker enzymes together as they can by dragging the mela-helpers to them.",
+                  "type": "Mela-pod Builder"
+                },
+                "dialog": {
+                  "end": {
+                    "failure": [
+                      {
+                        "character": "ELLIS",
+                        "text": "You got there, but you'll need to do better to earn a crystal!."
+                      }
+                    ],
+                    "success": [
+                      {
+                        "character": "ELLIS",
+                        "text": "Well done. Charcoal dragons that blend in with the dark sky could make or break the surprise attack on Darkwell. Now we know more about how to make that color."
+                      }
+                    ]
+                  },
+                  "start": [
+                    {
+                      "character": "ELLIS",
+                      "text": "If you can sort this out, you will help us understand how different alleles produce orange and gray drakes. Starting with a lava orange drake, how can we make it charcoal gray?"
+                    },
+                    {
+                      "character": "ELLIS",
+                      "text": "You will need to figure out how the protein machines work, and then make protein moves to change the outcome."
+                    },
+                    {
+                      "character": "HERRERA",
+                      "text": "After you zoom in, look on the right side of the screen to track your progress. Make sure you are going toward the right color."
+                    }
+                  ]
+                },
+                "id": "cell-game-lava-charcoal-size",
+                "name": "Challenge 3.2.2",
+                "room": "zoomroom"
+              },
+              {
+                "about": {
+                  "description": "Students change a drake’s scale color from charcoal to lava by interacting with the broken proteins in a mela-pod. To get the drake from charcoal to lava, students will need to reduce the size of the mela-pod. Students can speed up the shrinking process by clicking on the mela-helper proteins to remove them and by rapidly clicking on stars to break them apart.",
+                  "tip": "This is a tricky challenge! Note that only some of the mela-helper proteins are broken and will hold the mela-maker enzyme together only for a short time. Students should remove the fully functional mela-helper proteins preferentially, to speed up the shrinking process.",
+                  "type": "Mela-pod Builder"
+                },
+                "dialog": {
+                  "end": {
+                    "failure": [
+                      {
+                        "character": "ELLIS",
+                        "text": "You got there, but you'll need to do better to earn a crystal!."
+                      }
+                    ],
+                    "success": [
+                      {
+                        "character": "ELLIS",
+                        "text": "Congratulations, Cadet! You mastered how the proteins work to create both the lava and charcoal scale colors."
+                      },
+                      {
+                        "character": "HERRERA",
+                        "text": "You’ve earned a shortcut for your hard work: you now have access to the orange/gray alleles that control the mela-helper directly in the nucleus."
+                      }
+                    ]
+                  },
+                  "start": [
+                    {
+                      "character": "ELLIS",
+                      "text": "Now that you’ve mastered making charcoal scales, let’s see if you can reverse it to make lava scales. "
+                    },
+                    {
+                      "character": "HERRERA",
+                      "text": "Case in point: our allies in the volcanic landscape of Sawaki need those lava dragons to build their camouflaged defense force!"
+                    },
+                    {
+                      "character": "ELLIS",
+                      "text": "You know what to do. Click the projection and get working on those proteins to turn that drake from charcoal to lava."
+                    }
+                  ]
+                },
+                "id": "cell-game-charcoal-lava-size",
+                "name": "Challenge 3.2.3",
+                "room": "zoomroom"
+              },
+              {
+                "about": {
+                  "description": "Students are unable to interact with the proteins in a lava mela-pod. Students enter the nucleus to make a permanent change to the drake’s genome. Students should change the orange/gray alleles (associated with the mela-helper protein) such that the functional mela-helper is made in order to create a charcoal drake. Students then click BUILD to view the proteins being made and click CLOSE to zoom back out to the mela-pod and see the proteins at work. If the correct alleles are selected, the mela-helpers will keep the mela-makers together and create the correct size/color mela-pod. Once the goal state is reached, the challenge is complete.",
+                  "tip": "Students only need to make one allele change from orange to gray in order for enough functional protein to be produced and reach the target color.",
+                  "type": "Nucleus (Gene Editor)"
+                },
+                "dialog": {
+                  "end": {
+                    "failure": [
+                      {
+                        "character": "ELLIS",
+                        "text": "You got there, but you'll need to do better to earn a crystal!."
+                      }
+                    ],
+                    "success": [
+                      {
+                        "character": "ELLIS",
+                        "text": "You did it! Congratulations!"
+                      }
+                    ]
+                  },
+                  "start": [
+                    {
+                      "character": "ELLIS",
+                      "text": "In this challenge, you’ll need to turn the drake’s scales from lava to charcoal again, but there's a twist this time."
+                    },
+                    {
+                      "character": "HERRERA",
+                      "text": "You’ve unlocked the orange/gray alleles that control the mela-helper protein, so you can swap between the orange and gray alleles directly in the cell nucleus."
+                    },
+                    {
+                      "character": "ELLIS",
+                      "text": "Best of all, changing the allele in the nucleus affects the proteins permanently, so it should be super-quick! Click the projection to start."
+                    }
+                  ]
+                },
+                "id": "cell-game-lava-charcoal-nucleus",
+                "name": "Challenge 3.2.4",
+                "room": "zoomroom"
+              }
+            ],
+            "dialog": {
+              "end": [
+                {
+                  "character": "HATCH",
+                  "text": "Great work in the Zoom Room, Cadet! I just wish there was better news from our pilots."
+                },
+                {
+                  "character": "WEAVER",
+                  "text": "I won’t sugar coat it for you. The situation is still grim, and the battle is not going well."
+                }
+              ],
+              "middle": [
+                {
+                  "character": "HATCH",
+                  "text": "Open your VentureMap and head on over to the Sim Room. Quickly! We don’t have much time!"
+                }
+              ],
+              "start": [
+                {
+                  "character": "WEAVER",
+                  "text": "News from the front! Darkwell has just attacked our allies in both Sawaki and Admar with a debilitating virus. We need more help!"
+                },
+                {
+                  "character": "ELLIS",
+                  "text": "Cadet, it’s a pleasure to meet you. If everything I’ve heard about you is true, I have high hopes for the future of Wyvern and its allies."
+                },
+                {
+                  "character": "WEAVER",
+                  "text": "Dr. Ellis is chief of the Protein Lab, or as we like to call it, the Zoom Room. His equipment lets us see how the genetic instructions in the chromosomes create proteins that affect the traits of drakes and dragons."
+                },
+                {
+                  "character": "ELLIS",
+                  "text": "We’ll begin by having you investigate how drakes get their different colors. Click the VentureMap to navigate to the Zoom Room."
+                }
+              ]
+            },
+            "name": "Mission 3.2"
+          },
+          {
+            "challenges": [
+              {
+                "about": {
+                  "description": "Students change a drake’s scale color from charcoal to frost by interacting with the proteins in a mela-pod. To get the drake from charcoal to frost, students will need to reduce the size of the mela-pod. Students can speed up the shrinking process by clicking on the mela-maker and mela-helper proteins to break them apart and by rapidly clicking on stars to break them apart.",
+                  "tip": "This is a tricky challenge! Students should remove mela-helper proteins as well as break apart stars as quickly as possible to complete the challenge. ",
+                  "type": "Mela-pod Builder"
+                },
+                "dialog": {
+                  "end": {
+                    "failure": [
+                      {
+                        "character": "ELLIS",
+                        "text": "You got there, but you'll need to do better to earn a crystal!."
+                      }
+                    ],
+                    "success": [
+                      {
+                        "character": "ELLIS",
+                        "text": "Congratulations, Cadet! Another challenge completed, more science knowledge absorbed, and a new crystal collected!"
+                      }
+                    ]
+                  },
+                  "start": [
+                    {
+                      "character": "ELLIS",
+                      "text": "Frost drakes are albino—they have no color in their scales. See if you can make one. Click the projection to get started."
+                    }
+                  ]
+                },
+                "id": "cell-game-charcoal-frost-size",
+                "name": "Challenge 3.3.1",
+                "room": "zoomroom"
+              },
+              {
+                "about": {
+                  "description": "Students manipulate proteins in a frost mela-pod where the mela-maker enzymes are broken (mela-maker can import triangles, but cannot assemble them into stars). Students need to assist the mela-maker enzymes in making stars by ‘feeding’ triangles into the piece of the mela-maker that assembles stars in order to increase the size of the mela-pod to the charcoal state.",
+                  "tip": "All of the mela-helper proteins are functional, but clicking too closely to them when feeding triangles into the mela-maker will cause the mela-helper to break off (causing the mela-maker to break apart). Note that the broken version of the mela-maker enzyme has a wider mouth which imports the triangle into the mela-pod without being fed into the other half of the mela-maker.",
+                  "type": "Mela-pod Builder"
+                },
+                "dialog": {
+                  "end": {
+                    "failure": [
+                      {
+                        "character": "ELLIS",
+                        "text": "You got there, but you'll need to do better to earn a crystal!."
+                      }
+                    ],
+                    "success": [
+                      {
+                        "character": "ELLIS",
+                        "text": "Now that we understand what’s going on with the proteins, I’ve programmed the simulator to unlock the albino/color allele so we can control the mela-maker protein directly from the nucleus. "
+                      }
+                    ]
+                  },
+                  "start": [
+                    {
+                      "character": "ELLIS",
+                      "text": "Going from frost to lava takes enough melanin to make a half-size pod. Figure out how to get there."
+                    }
+                  ]
+                },
+                "id": "cell-game-frost-charcoal-size",
+                "name": "Challenge 3.3.2",
+                "room": "zoomroom"
+              },
+              {
+                "about": {
+                  "description": "Students are unable to interact with the proteins in a frost mela-pod. Students enter the nucleus to make a permanent change to the drake’s genome. Students should change the albino/color alleles (associated with the mela-maker protein) such that the functional mela-maker is made in order to create a charcoal drake. Students then click BUILD to view the proteins being made and click CLOSE to zoom back out to the mela-pod and see the proteins at work. If the correct alleles are selected, the mela-makers will be able to assemble triangles into stars and create the target color mela-pod. Once the target color is reached, the challenge is complete.",
+                  "tip": "Students only need to make one allele change from albino to color in order for enough functional protein to be produced and reach the target color.",
+                  "type": "Nucleus (Gene Editor)"
+                },
+                "dialog": {
+                  "end": {
+                    "failure": [
+                      {
+                        "character": "ELLIS",
+                        "text": "You got there, but you'll need to do better to earn a crystal!."
+                      }
+                    ],
+                    "success": [
+                      {
+                        "character": "ELLIS",
+                        "text": "Well done! "
+                      }
+                    ]
+                  },
+                  "start": [
+                    {
+                      "character": "ELLIS",
+                      "text": "Let’s use our newly unlocked albino/color allele to modify the drake scale color from frost to charcoal, directly in the nucleus. Click the projection."
+                    }
+                  ]
+                },
+                "id": "cell-game-frost-charcoal-nucleus",
+                "name": "Challenge 3.3.3",
+                "room": "zoomroom"
+              }
+            ],
+            "dialog": {
+              "end": [
+                {
+                  "character": "ELLIS",
+                  "text": "That was some great teamwork! I’ve already shared what we learned about albino drakes and dragons with my counterpart in Admar."
+                },
+                {
+                  "character": "HATCH",
+                  "text": "And I already heard back from Admar that they’ve signed our trade deal. Well done, you two. "
+                },
+                {
+                  "character": "ELLIS",
+                  "text": "That’s a significant win that will help our defenses, but there’s still so much to do to build our dragon force. It’s time to shift into high gear. "
+                }
+              ],
+              "middle": [
+                {
+                  "character": "ELLIS",
+                  "text": "Open your VentureMap and head on over to the Sim Room. Quickly! We don’t have much time!"
+                }
+              ],
+              "start": [
+                {
+                  "character": "ELLIS",
+                  "text": "We’re in new territory here, Cadet. For this next challenge, you and I will be learning together."
+                },
+                {
+                  "character": "HERRERA",
+                  "text": "You remember our allies from Admar? Albino  dragons are sacred to them. The Admar rulers know we are close to figuring how proteins cause drakes and dragons to become albino... "
+                },
+                {
+                  "character": "ELLIS",
+                  "text": "And if we share our knowledge, they will approve a massive trade deal that will help our cause. Open the VentureMap and come with me to the Zoom Room!"
+                }
+              ]
+            },
+            "name": "Mission 3.3"
+          },
+          {
+            "challenges": [
+              {
+                "about": {
+                  "description": "Students click on the glowing tunnels to zoom in to the cell. To make the drake shiny, they must prevent the orange melanosomes from traveling across to the outer scale cells by closing the gates to the cell. To do this they must first click to remove the pod-releasing proteins, then click again to close the gates. The progress bar at the top of the screen indicates how full the scale cells are with mela-pods. Once the progress bar is empty, the drake will reach the copper state.",
+                  "tip": "This is a tricky challenge! This lava drake is homozygous dominant (dull/dull). Therefore, there aren’t any broken proteins present to prevent mela-pods from entering scale cells. Students will need to manually close all of the gates and try to maintain that state until the progress bar is empty.",
+                  "type": "Pod-release Gates"
+                },
+                "dialog": {
+                  "end": {
+                    "failure": [
+                      {
+                        "character": "ELLIS",
+                        "text": "You got there, but you'll need to do better to earn a crystal!."
+                      }
+                    ],
+                    "success": [
+                      {
+                        "character": "HERRERA",
+                        "text": "Excellent, Cadet, another crystal!"
+                      },
+                      {
+                        "character": "ELLIS",
+                        "text": "And, just as important, we now know how mela-pods are blocked from entering drake scale cells, making the drake reflect light."
+                      }
+                    ]
+                  },
+                  "start": [
+                    {
+                      "character": "ELLIS",
+                      "text": "Interesting! Our dragon carers are reporting that copper-colored drakes and dragons have a natural immunity to the parasitic worm unleashed by Darkwell."
+                    },
+                    {
+                      "character": "HERRERA",
+                      "text": "Meaning that if we can isolate that immunity, we could create a cure?"
+                    },
+                    {
+                      "character": "ELLIS",
+                      "text": "Yes! But first we need to understand how copper drakes get their color. Copper drakes are shiny versions of lava drakes, so we need to zoom in on a lava drake and see if we can turn it copper."
+                    },
+                    {
+                      "character": "HERRERA",
+                      "text": "Lucky for us that we’re in the Zoom Room. Projection, please, Cadet!"
+                    }
+                  ]
+                },
+                "id": "cell-game-lava-copper-gate",
+                "name": "Challenge 3.4.1",
+                "room": "zoomroom"
+              },
+              {
+                "about": {
+                  "description": "Students click on the glowing tunnels to zoom in to the cell. To make the drake dull, they must help the orange melanosomes to travel across to the outer scale cells by opening the gates to the cell. To do this they must first click to remove the broken pod-releasing proteins. The progress bar at the top of the screen indicates how full the scale cells are with mela-pods. Once the progress bar is full, the drake will reach the lava state.",
+                  "tip": "Since this copper drake is heterozygous (shiny/dull), there are some functional  pod-releasing proteins present. Students should avoid removing the functional proteins since they will let mela-pods through and focus on removing the broken  pod-releasing proteins as quickly as possible. This is an example of a dominant negative (a dominant loss-of-function allele).",
+                  "type": "Pod-release Gates"
+                },
+                "dialog": {
+                  "end": {
+                    "failure": [
+                      {
+                        "character": "ELLIS",
+                        "text": "You got there, but you'll need to do better to earn a crystal!."
+                      }
+                    ],
+                    "success": [
+                      {
+                        "character": "ELLIS",
+                        "text": "Now that we understand what’s going on with the proteins, I’ve programmed the simulator to unlock the shiny/dull allele so we can control the pod-releasing protein directly from the nucleus."
+                      }
+                    ]
+                  },
+                  "start": [
+                    {
+                      "character": "ELLIS",
+                      "text": "You know the drill! Now we’ve modified the drake’s scale color from lava to copper, let’s try going from copper to lava. Click the projection."
+                    }
+                  ]
+                },
+                "id": "cell-game-copper-lava-gate",
+                "name": "Challenge 3.4.2",
+                "room": "zoomroom"
+              },
+              {
+                "about": {
+                  "description": "Students click on the glowing tunnels to find that they are unable to interact with the proteins in the tunnels. Students enter the nucleus to make a permanent change to the drake’s genome, changing the shiny/dull alleles so that the broken pod-releasing protein is made. Students then click BUILD to view the proteins being made and click CLOSE to zoom back out to the tunnels and see the proteins at work. If the correct alleles are selected, the mela-pods will not be able to trigger the pod-releasing proteins to open the gates. Once the target color is reached, the challenge is complete.",
+                  "tip": "This copper drake is heterozygous (shiny/dull). Students need to change the shiny allele to dull in order to make all broken  pod-releasing proteins to reach the target color.",
+                  "type": "Pod-release Gates"
+                },
+                "dialog": {
+                  "end": {
+                    "failure": [
+                      {
+                        "character": "ELLIS",
+                        "text": "You got there, but you’ll need to do better to earn a crystal!"
+                      }
+                    ],
+                    "success": [
+                      {
+                        "character": "ELLIS",
+                        "text": "You did it! You’ve mastered three drake color genes. Congratulations!"
+                      }
+                    ]
+                  },
+                  "start": [
+                    {
+                      "character": "ELLIS",
+                      "text": "Important heads up, Cadet! Change this drake from Lava to Steel by going to the nucleus. HINT: Make SURE to look at more than one chromosome pair!"
+                    },
+                    {
+                      "character": "HERRERA",
+                      "text": "Ellis, this is a tricky one. How about another hint?"
+                    },
+                    {
+                      "character": "ELLIS",
+                      "text": "OK, listen up Cadet, if you find yourself back at the cell and stuck, dive back into the nucleus and look for another change to make. Click the projection to start!"
+                    }
+                  ]
+                },
+                "id": "cell-game-copper-lava-nucleus",
+                "name": "Challenge 3.4.3",
+                "room": "zoomroom"
+              }
+            ],
+            "dialog": {
+              "end": [
+                {
+                  "character": "WEAVER",
+                  "text": "Cadet, you’ve proven yourself ready to take the Guild to the next level. We are granting you access to the Breeding Barn equipment. "
+                },
+                {
+                  "character": "HATCH",
+                  "text": "As grim as things may seem out there, the Guild is making significant progress thanks to you. Keep it up!"
+                }
+              ],
+              "middle": [
+                {
+                  "character": "HERRERA",
+                  "text": "Open your VentureMap and head on over to the Sim Room. Quickly! We don’t have much time!"
+                }
+              ],
+              "start": [
+                {
+                  "character": "HERRERA",
+                  "text": "My dragon pilots are reporting that the Darkwellian forces are building more quickly than we expected."
+                },
+                {
+                  "character": "HATCH",
+                  "text": "And we also suspect that Darkwell has unleashed a parasitic worm on our dragons; several have become ill in the last 24 hours."
+                },
+                {
+                  "character": "HERRERA",
+                  "text": "Professor Hatch, permission to mobilize our surprise attack!"
+                },
+                {
+                  "character": "HATCH",
+                  "text": "Not yet, Colonel! We’re so close to understanding how to control the full range of scale colors in drakes. Applying that knowledge to our dragon defenses will give us the edge in our attack."
+                },
+                {
+                  "character": "HERRERA",
+                  "text": "But if we delay the strike much longer, our defeat is inevitable. "
+                },
+                {
+                  "character": "HATCH",
+                  "text": "Cadet, use the VenturePad to meet up with Ellis in the Zoom Room team. Hurry! "
+                }
+              ]
+            },
+            "name": "Mission 3.4"
+          }
+        ]
+      },
+      {
+        "missions": [
+          {
+            "challenges": [
+              {
+                "about": {
+                  "description": "Students will create drakes with different traits (arms, legs, wings, horns, armor) by selecting chromosomes from parents to form an egg and sperm. They will fertilize and hatch an offspring. To complete the challenge, students must create five different looking drakes and save them to their stable.",
+                  "tip": "Students may not notice that the X and Y chromosomes are different lengths. To produce a male drake, they must select the shorter chromosome for the sperm.",
+                  "type": "Gamete Builder"
+                },
+                "dialog": {
+                  "end": {
+                    "failure": [
+                      {
+                        "character": "HATCH",
+                        "text": "You got there, but you'll need to do better to earn a crystal!."
+                      }
+                    ],
+                    "success": [
+                      {
+                        "character": "HATCH",
+                        "text": "Are you ready to move from the simulation to the real world?"
+                      }
+                    ]
+                  },
+                  "start": [
+                    {
+                      "character": "HATCH",
+                      "text": "Cadet, it's time to build and hatch 5 unique drake eggs."
+                    },
+                    {
+                      "character": "NETANYA",
+                      "text": "So far, you’ve sorted fully formed, fertilized eggs. Now you're going to assemble the sperm and the egg yourself."
+                    },
+                    {
+                      "character": "HATCH",
+                      "text": "Along the way you'll see how alleles are inherited from parents. Click the screen to start."
+                    }
+                  ]
+                },
+                "id": "gamete-5drakes-starterTraits",
+                "name": "Challenge 4.1.1",
+                "room": "hatchery"
+              },
+              {
+                "about": {
+                  "description": "Students assemble an egg and a sperm by selecting one chromosome from each pair. The offspring drake must match the target drake.",
+                  "type": "Gamete Builder"
+                },
+                "dialog": {
+                  "end": {
+                    "failure": [
+                      {
+                        "character": "HATCH",
+                        "text": "You got there, but you'll need to do better to earn a crystal!."
+                      }
+                    ],
+                    "success": [
+                      {
+                        "character": "HATCH",
+                        "text": "Your simulation work could translate into real world experiments. Time to prove you know what you're doing"
+                      }
+                    ]
+                  },
+                  "start": [
+                    {
+                      "character": "NETANYA",
+                      "text": "I'm guessing you said 'Yes' to being ready? OK, time for DIY drakes— you will assign chromosomes in the egg and sperm cells to match targets."
+                    }
+                  ]
+                },
+                "id": "gamete-targetMatch-starterTraits",
+                "name": "Challenge 4.1.2",
+                "room": "hatchery"
+              },
+              {
+                "about": {
+                  "description": "Students assemble an egg and a sperm by selecting one chromosome from each pair. The offspring drake must match the target drake.",
+                  "type": "Gamete Builder"
+                },
+                "dialog": {
+                  "end": {
+                    "failure": [
+                      {
+                        "character": "HATCH",
+                        "text": "You got there, but you'll need to do better to earn a crystal!."
+                      }
+                    ],
+                    "success": [
+                      {
+                        "character": "HATCH",
+                        "text": "Keep working, Cadet."
+                      }
+                    ]
+                  },
+                  "start": [
+                    {
+                      "character": "HATCH",
+                      "text": "Grey drakes have been identified as a target because they spit a venom that can cause temporary unconsciousness and paralysis. The venom can be used to knock out the enemy, or as an anesthetic."
+                    },
+                    {
+                      "character": "NETANYA",
+                      "text": "If it means they'll stop talking, I have one or two people I’d like to use that on! Click the screen to start."
+                    }
+                  ]
+                },
+                "id": "gamete-targetMatch-starterTraits2",
+                "name": "Challenge 4.1.3",
+                "room": "hatchery"
+              },
+              {
+                "about": {
+                  "description": "Students assemble an egg and a sperm by selecting one chromosome from each pair. The offspring drake must match the target drake.",
+                  "type": "Gamete Builder"
+                },
+                "dialog": {
+                  "end": {
+                    "failure": [
+                      {
+                        "character": "HATCH",
+                        "text": "You got there, but you'll need to do better to earn a crystal!."
+                      }
+                    ],
+                    "success": [
+                      {
+                        "character": "HATCH",
+                        "text": "That's three in a row. Move ahead, if you think you're ready."
+                      }
+                    ]
+                  },
+                  "start": [
+                    {
+                      "character": "NETANYA",
+                      "text": "Keep going for blue!"
+                    }
+                  ]
+                },
+                "id": "gamete-targetMatch-starterTraits3",
+                "name": "Challenge 4.1.4",
+                "room": "hatchery"
+              },
+              {
+                "about": {
+                  "description": "Students click the Generate Gametes button to see how gametes are randomly assembled. The game creates one egg and three sperm in Challenge 5 and three eggs and one sperm in Challenge 6. In both cases, the student must select the sperm or egg that, when combined with the other gamete, will create the target drake.",
+                  "type": "Gamete Selector"
+                },
+                "dialog": {
+                  "end": {
+                    "failure": [
+                      {
+                        "character": "NETANYA",
+                        "text": "You got there, but you'll need to do better to earn a crystal!."
+                      }
+                    ],
+                    "success": [
+                      {
+                        "character": "NETANYA",
+                        "text": "Move ahead when ready, Cadet."
+                      }
+                    ]
+                  },
+                  "start": [
+                    {
+                      "character": "NETANYA",
+                      "text": "Now you'll see how it really works. No more DIY."
+                    },
+                    {
+                      "character": "HATCH",
+                      "text": "That's right. Can you cope with real chromosomes that are selected by chance?"
+                    },
+                    {
+                      "character": "NETANYA",
+                      "text": "Time to use the random generator! Click the screen!"
+                    }
+                  ]
+                },
+                "id": "gamete-selectSpermEgg-starterTraits",
+                "name": "Challenge 4.1.5",
+                "room": "hatchery"
+              },
+              {
+                "about": {
+                  "description": "Students click the Generate Gametes button to see how gametes are randomly assembled. The game creates one egg and three sperm in Challenge 5 and three eggs and one sperm in Challenge 6. In both cases, the student must select the sperm or egg that, when combined with the other gamete, will create the target drake.",
+                  "type": "Gamete Selector"
+                },
+                "dialog": {
+                  "end": {
+                    "failure": [
+                      {
+                        "character": "NETANYA",
+                        "text": "You got there, but you'll need to do better to earn a crystal!."
+                      }
+                    ],
+                    "success": [
+                      {
+                        "character": "NETANYA",
+                        "text": "These drakes remind me of a Firefly. Shiny!."
+                      }
+                    ]
+                  },
+                  "start": [
+                    {
+                      "character": "NETANYA",
+                      "text": "You need to select an egg cell to make the target drakes in this challenge."
+                    },
+                    {
+                      "character": "HATCH",
+                      "text": "We’ve identified shiny drakes as a target because their iridescence makes them popular in the Storefront as pets."
+                    },
+                    {
+                      "character": "NETANYA",
+                      "text": "Let’s go! Click the screen!"
+                    }
+                  ]
+                },
+                "id": "gamete-selectSpermEgg-starterTraits2",
+                "name": "Challenge 4.1.6",
+                "room": "hatchery"
+              },
+              {
+                "about": {
+                  "description": "Students click the Generate Gametes button to see how gametes are randomly assembled. The game creates multiple eggs and sperm. The student must select a sperm and egg that will create the target drake.",
+                  "type": "Gamete Selector"
+                },
+                "dialog": {
+                  "end": {
+                    "failure": [
+                      {
+                        "character": "HATCH",
+                        "text": "You got there, but you'll need to do better to earn a crystal!."
+                      }
+                    ],
+                    "success": [
+                      {
+                        "character": "HATCH",
+                        "text": "Cadet, we're working around the clock breeding enough orange drakes to counter the Zombie drug!"
+                      }
+                    ]
+                  },
+                  "start": [
+                    {
+                      "character": "NETANYA",
+                      "text": "You’ll be selecting both egg and sperm to make the target drake in this challenge."
+                    },
+                    {
+                      "character": "HATCH",
+                      "text": "Watch out for those orange-colored drakes as targets. Their saliva counters the mind-dulling Zombie drug that the Darkwellians have added to the Wyvern Republic’s water supply."
+                    },
+                    {
+                      "character": "NETANYA",
+                      "text": "Click the screen to start this challenge."
+                    }
+                  ]
+                },
+                "id": "gamete-selectSpermEgg-starterTraits-bothParents",
+                "name": "Challenge 4.1.7",
+                "room": "hatchery"
+              },
+              {
+                "about": {
+                  "description": "Students click the Generate Gametes button to see how gametes are randomly assembled. The game creates multiple eggs and sperm. The student must select a sperm and egg that will create the target drake.",
+                  "type": "Gamete Selector"
+                },
+                "dialog": {
+                  "end": {
+                    "failure": [
+                      {
+                        "character": "HATCH",
+                        "text": "You got there, but you'll need to do better to earn a crystal!."
+                      }
+                    ],
+                    "success": [
+                      {
+                        "character": "HATCH",
+                        "text": "We're getting the antidote out to the public, you can take a moment to relax."
+                      }
+                    ]
+                  },
+                  "start": [
+                    {
+                      "character": "NETANYA",
+                      "text": "Let's make sure you've got this, Cadet."
+                    }
+                  ]
+                },
+                "id": "gamete-selectSpermEgg-starterTraits-bothParents2",
+                "name": "Challenge 4.1.8",
+                "room": "hatchery"
+              }
+            ],
+            "dialog": {
+              "end": [
+                {
+                  "character": "WEAVER",
+                  "text": "Thanks to your progress, Cadet, we’ve combated the tainted water supply and our population is alert again!"
+                },
+                {
+                  "character": "HATCH",
+                  "text": "Relaxation time over! Darkwell’s growing strength is of great concern, as you'll learn in our next briefing."
+                }
+              ],
+              "middle": [
+                {
+                  "character": "WEAVER",
+                  "text": "Open your VentureMap and head on over to the Sim Room. Quickly! We don’t have much time!"
+                }
+              ],
+              "start": [
+                {
+                  "character": "HATCH",
+                  "text": "Bad news, Cadet! The Darkwellians have tainted the Wyvern Republic’s water supply with a drug that dulls the minds of the entire population! They are shuffling around like Zombies! "
+                },
+                {
+                  "character": "WEAVER",
+                  "text": "But there is hope! The Guild has found that saliva from orange-colored drakes can counter the drug."
+                },
+                {
+                  "character": "HATCH",
+                  "text": "We need more orange drakes, and to push ahead with our breeding program for other invaluable traits."
+                },
+                {
+                  "character": "WEAVER",
+                  "text": "Let’s go, Cadet! Time is of the essence!"
+                }
+              ]
+            },
+            "name": "Mission 4.1"
+          },
+          {
+            "challenges": [
+              {
+                "about": {
+                  "description": "Students will breed two parents to match a target drakes. In the first two challenges, one parent’s alleles will be fixed and students will select the other parent’s  alleles such that when they breed, they will produce the target offspring. In the final challenge, students will adjust both parents’ alleles. All traits used in these challenges follow the simple dominance inheritance pattern.",
+                  "tip": "The offspring drakes are randomly generated. Students may need to click “Breed” several times. To receive a blue crystal, students must change the minimum number of alleles necessary.",
+                  "type": "Breeding Barn - 1 adjustable parent"
+                },
+                "dialog": {
+                  "end": {
+                    "failure": [
+                      {
+                        "character": "RAJPUT",
+                        "text": "You got there, but you'll need to do better to earn a crystal!."
+                      }
+                    ],
+                    "success": [
+                      {
+                        "character": "RAJPUT",
+                        "text": "Keep working, Cadet."
+                      }
+                    ]
+                  },
+                  "start": [
+                    {
+                      "character": "RAJPUT",
+                      "text": "With the Darkwellians attacking our agriculture, we need alternative sources of food, like forest mushrooms"
+                    },
+                    {
+                      "character": "WEAVER",
+                      "text": "We need more dull-colored drakes. They blend in with the forest floor and the Darkwellian patrols don't see them. And that’s just one of the target drakes we need."
+                    },
+                    {
+                      "character": "RAJPUT",
+                      "text": "In this challenge, one parent’s alleles are known. Make the fewest allele moves on the other parent to breed the target. Click the screen to get started."
+                    }
+                  ]
+                },
+                "id": "clutch-5drakes-starterTraits",
+                "name": "Challenge 4.2.1",
+                "room": "breedingbarn"
+              },
+              {
+                "about": {
+                  "description": "Students will breed two parents to match a target drakes. In the first two challenges, one parent’s alleles will be fixed and students will select the other parent’s  alleles such that when they breed, they will produce the target offspring. In the final challenge, students will adjust both parents’ alleles. All traits used in these challenges follow the simple dominance inheritance pattern.",
+                  "tip": "The offspring drakes are randomly generated. Students may need to click “Breed” several times. To receive a blue crystal, students must change the minimum number of alleles necessary.",
+                  "type": "Breeding Barn - 1 adjustable parent"
+                },
+                "dialog": {
+                  "end": {
+                    "failure": [
+                      {
+                        "character": "RAJPUT",
+                        "text": "You got there, but you'll need to do better to earn a crystal!."
+                      }
+                    ],
+                    "success": [
+                      {
+                        "character": "WEAVER",
+                        "text": "One more time, Cadet, let's not leave this to luck!"
+                      }
+                    ]
+                  },
+                  "start": [
+                    {
+                      "character": "WEAVER",
+                      "text": "Good job, Rajput—she's putting you through the paces!"
+                    }
+                  ]
+                },
+                "id": "clutch-5drakes-starterTraits2",
+                "name": "Challenge 4.2.2",
+                "room": "breedingbarn"
+              },
+              {
+                "about": {
+                  "description": "Students will breed two parents to match a target drakes. In the first two challenges, one parent’s alleles will be fixed and students will select the other parent’s  alleles such that when they breed, they will produce the target offspring. In the final challenge, students will adjust both parents’ alleles. All traits used in these challenges follow the simple dominance inheritance pattern.",
+                  "tip": "The offspring drakes are randomly generated. Students may need to click “Breed” several times. To receive a blue crystal, students must change the minimum number of alleles necessary.",
+                  "type": "Breeding Barn - 1 adjustable parent"
+                },
+                "dialog": {
+                  "end": {
+                    "failure": [
+                      {
+                        "character": "RAJPUT",
+                        "text": "You got there, but you'll need to do better to earn a crystal!."
+                      }
+                    ],
+                    "success": [
+                      {
+                        "character": "WEAVER",
+                        "text": "Another set of targets completed, and another crystal to power the machines that are strengthening our dragon force!"
+                      }
+                    ]
+                  },
+                  "start": [
+                    {
+                      "character": "RAJPUT",
+                      "text": "Okay, Cadet, we need to ramp up this operation. You must change alleles for both parents this time, in order to breed a drake that matches the target."
+                    },
+                    {
+                      "character": "WEAVER",
+                      "text": "Keep your number of moves low, even though there are two drakes to work on. Go for blue!"
+                    }
+                  ]
+                },
+                "id": "clutch-5drakes-starterTraits3",
+                "name": "Challenge 4.2.3",
+                "room": "breedingbarn"
+              },
+              {
+                "about": {
+                  "description": "Students select both the male and female drake’s alleles such that when they breed, they will produce the target offspring. In the first challenge, students will work with the horns trait (recessive). In the second challenge, students will work with both albino (epistatic trait) and armor (incomplete dominant).",
+                  "tip": "The offspring drakes are randomly generated. Students may need to click “Breed” several times. To receive a blue crystal, students must change the minimum number of alleles necessary.",
+                  "type": "Breeding Barn - 2 adjustable parents"
+                },
+                "dialog": {
+                  "end": {
+                    "failure": [
+                      {
+                        "character": "RAJPUT",
+                        "text": "You got there, but you'll need to do better to earn a crystal!."
+                      }
+                    ],
+                    "success": [
+                      {
+                        "character": "WEAVER",
+                        "text": "Try it again for another crystal, Cadet!"
+                      }
+                    ]
+                  },
+                  "start": [
+                    {
+                      "character": "RAJPUT",
+                      "text": "Keep your number of moves low, even though there are two drakes to work on. Go for blue!"
+                    }
+                  ]
+                },
+                "id": "clutch-5drakes-intermediateTraits",
+                "name": "Challenge 4.2.4",
+                "room": "breedingbarn"
+              },
+              {
+                "about": {
+                  "description": "Students select both the male and female drake’s alleles such that when they breed, they will produce the target offspring. In the first challenge, students will work with the horns trait (recessive). In the second challenge, students will work with both albino (epistatic trait) and armor (incomplete dominant).",
+                  "tip": "The offspring drakes are randomly generated. Students may need to click “Breed” several times. To receive a blue crystal, students must change the minimum number of alleles necessary.",
+                  "type": "Breeding Barn - 2 adjustable parents"
+                },
+                "dialog": {
+                  "end": {
+                    "failure": [
+                      {
+                        "character": "RAJPUT",
+                        "text": "You got there, but you'll need to do better to earn a crystal!."
+                      }
+                    ],
+                    "success": [
+                      {
+                        "character": "WEAVER",
+                        "text": "Excellent job, Cadet!"
+                      },
+                      {
+                        "character": "RAJPUT",
+                        "text": "Now we’ll be able to breed enough shiny drakes to develop stores of the antidote for the virus unleashed by Darkwell."
+                      }
+                    ]
+                  },
+                  "start": [
+                    {
+                      "character": "RAJPUT",
+                      "text": "Steady on, Cadet, you can do it."
+                    }
+                  ]
+                },
+                "id": "clutch-5drakes-intermediateTraits2",
+                "name": "Challenge 4.2.5",
+                "room": "breedingbarn"
+              }
+            ],
+            "dialog": {
+              "end": [
+                {
+                  "character": "WEAVER",
+                  "text": "We've got dull-colored drakes you helped us breed, Cadet, foraging mushrooms to keep the people of Wyvern fed."
+                },
+                {
+                  "character": "HATCH",
+                  "text": "The shiny drakes are providing an antidote to the Darwellian’s virus in Sawaki and Admar."
+                },
+                {
+                  "character": "WEAVER",
+                  "text": "All that's missing now is the intelligence report from the front at Robinstow. Dr. Netanya's been incognito there and should be back here at the base at any moment."
+                },
+                {
+                  "character": "HATCH",
+                  "text": "Aha - here she comes. She'll give you your next assignment based on what she's learned. Colonel Herrera will be in the loop to make sure we're ready for the surprise attack on Darkwell."
+                }
+              ],
+              "middle": [
+                {
+                  "character": "RAJPUT",
+                  "text": "Open your VentureMap and head on over to the Sim Room. Quickly! We don’t have much time!"
+                }
+              ],
+              "start": [
+                {
+                  "character": "WEAVER",
+                  "text": "The Darkwellians have ruined our agriculture and our food supplies are low. Our allies in Sawaki and Admar are in bad shape due to the virus Darwell unleashed."
+                },
+                {
+                  "character": "WEAVER",
+                  "text": "And I've also heard from the front line that the Darkwellians are getting close. I’m preparing to launch our undercover attack. The Guild needs you, Cadet, to team up with Professor Rajput for our final push."
+                },
+                {
+                  "character": "RAJPUT",
+                  "text": "Welcome, Cadet! My team works in the Breeding Barn on drakes and dragons of all variations. Follow me there now using the VentureMap."
+                }
+              ]
+            },
+            "name": "Mission 4.2"
+          },
+          {
+            "challenges": [
+              {
+                "about": {
+                  "description": "Students will set parental alleles such that it is possible to create the two siblings shown. One parent’s alleles will be fixed and students will have the ability to manipulate the alleles of the other parent using allele pulldowns. Alleles used will be wings, arms, and shiny.",
+                  "tip": "The student does not need to match the targets in this challenge, only set the parents so that it is possible to create the two targets.",
+                  "type": "Sibling Pairs - 1 adjustable parent"
+                },
+                "dialog": {
+                  "end": {
+                    "failure": [
+                      {
+                        "character": "HERRERA",
+                        "text": "You can do better at this!"
+                      }
+                    ],
+                    "success": [
+                      {
+                        "character": "HERRERA",
+                        "text": "Thank you Cadet, These results will go straight to our breeders at Robinstow!"
+                      }
+                    ]
+                  },
+                  "start": [
+                    {
+                      "character": "NETANYA",
+                      "text": "Cadet, dragons with wings can scope out the scene from above, but the wings get in the way when clearing the trail."
+                    },
+                    {
+                      "character": "HERRERA",
+                      "text": "On the other hand, sometimes we need a stealthy dull dragon along with one that can create a shiny diversion."
+                    },
+                    {
+                      "character": "NETANYA",
+                      "text": "Your challenge is to show us the parents that can breed the sibling pairs. Change alleles and then submit the parents that can create the targets!"
+                    }
+                  ]
+                },
+                "id": "siblings-1",
+                "name": "Challenge 4.3.1",
+                "room": "breedingbarn"
+              },
+              {
+                "about": {
+                  "description": "Students will set parental alleles such that it is possible to create the two siblings shown. Students will have the ability to manipulate the alleles of both parents. Horns and armor are used in this challenge.",
+                  "tip": "The student does not need to match the targets in this challenge, only set the parents so that it is possible to create the two targets.",
+                  "type": "Sibling Pairs - 2 adjustable parent"
+                },
+                "dialog": {
+                  "end": {
+                    "failure": [
+                      {
+                        "character": "HERRERA",
+                        "text": "You got there, but for our sneak attack to work, you’ll need to get better at this!"
+                      }
+                    ],
+                    "success": [
+                      {
+                        "character": "NETANYA",
+                        "text": "Good work, we can take this to the next level."
+                      }
+                    ]
+                  },
+                  "start": [
+                    {
+                      "character": "NETANYA",
+                      "text": "If we need to send a rider along, horns are important. But a smooth head is better on trails with low branches."
+                    },
+                    {
+                      "character": "HERRERA",
+                      "text": "That’s a good example, though you may find there are other traits to work on, too. See what you can do."
+                    }
+                  ]
+                },
+                "id": "siblings-2",
+                "name": "Challenge 4.3.2",
+                "room": "breedingbarn"
+              },
+              {
+                "about": {
+                  "description": "Students will set parental alleles such that it is possible to create the two siblings shown. This final challenge in the series includes five traits. Students will have the ability to manipulate the alleles of both parents.",
+                  "tip": "The student does not need to match the targets in this challenge, only set the parents so that it is possible to create the two targets.",
+                  "type": "Sibling Pairs - 2 adjustable parent"
+                },
+                "dialog": {
+                  "end": {
+                    "failure": [
+                      {
+                        "character": "HERRERA",
+                        "text": "You got there, but for our sneak attack to work, you’ll need to get better at this!"
+                      }
+                    ],
+                    "success": [
+                      {
+                        "character": "NETANYA",
+                        "text": "Well, Herrera, what do you think?"
+                      },
+                      {
+                        "character": "HERRERA",
+                        "text": "This offspring pair work is an example of truly awesome thinking by our cadet. And we now know enough to breed the dragons in Robinstow!"
+                      }
+                    ]
+                  },
+                  "start": [
+                    {
+                      "character": "NETANYA",
+                      "text": "OK, here’s the tough one. Varying five different traits will make for the most versatile combinations yet. Can you handle it?"
+                    }
+                  ]
+                },
+                "id": "siblings-3",
+                "name": "Challenge 4.3.3",
+                "room": "breedingbarn"
+              }
+            ],
+            "dialog": {
+              "end": [
+                {
+                  "character": "NETANYA",
+                  "text": "The bonded pair dragons will pave the way for our sneak attack. The Darkwellians will never see it coming, and the kingdom will finally be safe—for dragons and humans alike!"
+                }
+              ],
+              "middle": [
+                {
+                  "character": "NETANYA",
+                  "text": "Open your VentureMap and head over to the Breeding Barn. We need you at your best!"
+                }
+              ],
+              "start": [
+                {
+                  "character": "NETANYA",
+                  "text": "Good to see you again, Cadet. But bad news from the front—the Darkwellians are beefing up their defenses big-time. Herrera's sneak attack isn't just our best plan... Now it's our only option!"
+                },
+                {
+                  "character": "HERRERA",
+                  "text": "The key is creating secret trails from Robinstow to the outskirts of Darkwell. We need dragons that can work in pairs and anticipate each other’s movements under attack."
+                },
+                {
+                  "character": "NETANYA",
+                  "text": "A bonded pair of dragons know each other so well, they can practically read each other’s minds... But it takes many years for a pair to develop that bond. Hmm, wait—two drakes from the same parents are bonded right away!"
+                },
+                {
+                  "character": "HERRERA",
+                  "text": "There’s a catch, though—the offspring must have different strengths so that together they can perform a wide variety of tasks, from clearing a trail to repelling attackers. Cadet, can we have the best of both worlds?"
+                },
+                {
+                  "character": "NETANYA",
+                  "text": "Open your VentureMap and head over to the Breeding Barn. We need you at your best!"
+                }
+              ]
+            },
+            "name": "Mission 4.3"
+          }
+        ]
+      },
+      {
+        "missions": [
+          {
+            "challenges": [
+              {
+                "about": {
+                  "description": "Students must determine the genotype of the female drake by breeding it with an all recessive male. To determine the genotype of the mother, the students should breed multiple times. When they know the genotype, they click the Ready to Answer button. A correct answer on the first try receives a blue crystal; each incorrect submission downgrades the crystal one level.",
+                  "tip": "The mother's alleles are not manipulable; she is already in the ideal configuration for a test cross. Students should start to recognize the advantages of breeding against a recessive organism.",
+                  "type": "Test Cross"
+                },
+                "dialog": {
+                  "end": {
+                    "failure": [
+                      {
+                        "character": "RAJPUT",
+                        "text": "You did it, but you took too many tries. Let's try this one again!"
+                      }
+                    ],
+                    "success": [
+                      {
+                        "character": "RAJPUT",
+                        "text": "Focus on doing your best work, Cadet."
+                      }
+                    ]
+                  },
+                  "start": [
+                    {
+                      "character": "RAJPUT",
+                      "text": "These drakes had to be smuggled out quickly and secretly, so  we have no information on them."
+                    },
+                    {
+                      "character": "NETANYA",
+                      "text": "So we don't even know their genotypes?"
+                    },
+                    {
+                      "character": "RAJPUT",
+                      "text": "That's right. And we need the genotype if we are going to make progress understanding drake and dragon traits."
+                    },
+                    {
+                      "character": "RAJPUT",
+                      "text": "So we need you, Cadet, to determine genotypes. See if you can deduce the drake's alleles from his offspring."
+                    }
+                  ]
+                },
+                "id": "test-cross-1",
+                "name": "Challenge 5.1.1",
+                "room": "breedingbarn"
+              },
+              {
+                "about": {
+                  "description": "Students must determine the genotype of an 'invisible' female drake by breeding it with an all recessive male. To determine the genotype of the mother, the students should breed multiple times. When they know the genotype, they click the Ready to Answer button. A correct answer on the first try receives a blue crystal; each incorrect submission downgrades the crystal one level.",
+                  "tip": "It may be hard for students to deduce the genotype for horns, since it is a recessive trait.",
+                  "type": "Test Cross"
+                },
+                "dialog": {
+                  "end": {
+                    "failure": [
+                      {
+                        "character": "RAJPUT",
+                        "text": "You did it, but you took too many tries. Let's try this one again!"
+                      }
+                    ],
+                    "success": [
+                      {
+                        "character": "HERRERA",
+                        "text": "Did you show us your best effort here Cadet? If so, move on to the next mystery drake."
+                      }
+                    ]
+                  },
+                  "start": [
+                    {
+                      "character": "RAJPUT",
+                      "text": "Colonel Herrera, I have a feeling our Cadet needs a tougher challenge."
+                    },
+                    {
+                      "character": "HERRERA",
+                      "text": "I know! Let's test our cadet by hiding the female's appearance."
+                    },
+                    {
+                      "character": "RAJPUT",
+                      "text": "Good idea. Cadet, can you determine her genotype without even seeing her?"
+                    }
+                  ]
+                },
+                "id": "test-cross-2",
+                "name": "Challenge 5.1.2",
+                "room": "breedingbarn"
+              },
+              {
+                "about": {
+                  "description": "Students must determine the genotype of an 'invisible' male drake by breeding it with a female drake, but this time they must adjust the alleles of the female. Students should learn to make the female recessive and breed multiple times to deduce the unknown genotype. Students click Ready to Answer, and if they are correct on the first try, receive a blue crystal; each incorrect submission downgrades the crystal one level.",
+                  "tip": "Breeding with a fully recessive organism is not the only way to determine an unknown genotype, but it is the most efficient way.",
+                  "type": "Test Cross"
+                },
+                "dialog": {
+                  "end": {
+                    "failure": [
+                      {
+                        "character": "RAJPUT",
+                        "text": "You did it, but you took too many tries. Let's try this one again!"
+                      }
+                    ],
+                    "success": [
+                      {
+                        "character": "RAJPUT",
+                        "text": "This has been a real test of your abilities, Cadet! Our knowledge of these new drakes is important!"
+                      }
+                    ]
+                  },
+                  "start": [
+                    {
+                      "character": "RAJPUT",
+                      "text": "Now we are going to see if you've really got what it takes, Cadet."
+                    },
+                    {
+                      "character": "HERRERA",
+                      "text": "Here you'll have to figure out the best way to set the female's alleles before breeding."
+                    }
+                  ]
+                },
+                "id": "test-cross-3",
+                "name": "Challenge 5.1.3",
+                "room": "breedingbarn"
+              }
+            ],
+            "dialog": {
+              "end": [
+                {
+                  "character": "HERRERA",
+                  "text": "Get ready— for the rest of the smuggled drakes, you need to learn some totally new stuff."
+                }
+              ],
+              "middle": [
+                {
+                  "character": "RAJPUT",
+                  "text": "Welcome back! Open your VenturePad to get started."
+                }
+              ],
+              "start": [
+                {
+                  "character": "RAJPUT",
+                  "text": "Cadet, we've just received some drakes smuggled in from Darkwell! While the sneak attack is afoot, we need to examine them closely."
+                },
+                {
+                  "character": "NETANYA",
+                  "text": "Wait, Dr. Rajput, aren't drakes an endangered species in Darkwell?"
+                },
+                {
+                  "character": "RAJPUT",
+                  "text": "Yes! Darkwell has hunted the drakes close to extinction, so this is a rare find."
+                },
+                {
+                  "character": "NETANYA",
+                  "text": "Let's head over to the Breeding Barn to check them out."
+                }
+              ]
+            },
+            "name": "Mission 5.1"
+          }
+        ]
+      },
+      {
+        "missions": [
+          {
+            "challenges": [
+              {
+                "about": {
+                  "description": "Students match a target drake by selecting alleles from a pulldown menu. The drake that the student is creating is visible to the student while they are manipulating the alleles. The manipulable alleles are limited to tail, nose spike, and deep/faded color.",
+                  "tip": "Students may not notice that the neck flap only appears on male drakes. Students will only receive a blue crystal if they create the drake in the fewest moves possible.",
+                  "type": "Visible Drake Match"
+                },
+                "dialog": {
+                  "end": {
+                    "failure": [
+                      {
+                        "character": "YEUNG",
+                        "text": "You did it, but you took too many tries. Let's try this one again!"
+                      }
+                    ],
+                    "success": [
+                      {
+                        "character": "YEUNG",
+                        "text": "Spikes and faded color depend on whether there is one X or two. Make sure you're getting it."
+                      }
+                    ]
+                  },
+                  "start": [
+                    {
+                      "character": "YEUNG",
+                      "text": "By now you know that females have two X chromosomes, and males have only one X and a Y."
+                    },
+                    {
+                      "character": "YEUNG",
+                      "text": "It's time to see how genes on the X chromosome work."
+                    },
+                    {
+                      "character": "YEUNG",
+                      "text": "The sim will also add a new gene that has 3 alleles. We think you can handle it."
+                    }
+                  ]
+                },
+                "id": "allele-targetMatch-visible-harderTraits",
+                "name": "Challenge 6.1.1",
+                "room": "simroom"
+              },
+              {
+                "about": {
+                  "description": "Students match a target drake by selecting alleles from a pulldown menu. The drake that the student is creating is visible to the student while they are manipulating the alleles. The manipulable alleles are limited to tail, nose spike, and deep/faded color.",
+                  "tip": "Students may not notice that the neck flap only appears on male drakes. Students will only receive a blue crystal if they create the drake in the fewest moves possible.",
+                  "type": "Visible Drake Match"
+                },
+                "dialog": {
+                  "end": {
+                    "failure": [
+                      {
+                        "character": "YEUNG",
+                        "text": "You did it, but made too many moves to earn a crystal. Try this one again."
+                      }
+                    ],
+                    "success": [
+                      {
+                        "character": "YEUNG",
+                        "text": "Get ready for predicting what the drake will look like."
+                      }
+                    ]
+                  },
+                  "start": [
+                    {
+                      "character": "YEUNG",
+                      "text": "One more time, Cadet."
+                    }
+                  ]
+                },
+                "id": "allele-targetMatch-visible-harderTraits2",
+                "name": "Challenge 6.1.2",
+                "room": "simroom"
+              },
+              {
+                "about": {
+                  "description": "Students match a target drake by selecting alleles from a pulldown menu. The drake that the student is creating is visible to the student while they are manipulating the alleles. The manipulable alleles are limited to tail, nose spike, and deep/faded color.",
+                  "tip": "Students may not notice that the neck flap only appears on male drakes. Students will only receive a blue crystal if they create the drake in the fewest moves possible.",
+                  "type": "Hidden Drake Match"
+                },
+                "dialog": {
+                  "end": {
+                    "failure": [
+                      {
+                        "character": "YEUNG",
+                        "text": "Use fewer moves to earn a crystal!"
+                      }
+                    ],
+                    "success": [
+                      {
+                        "character": "YEUNG",
+                        "text": "Let's make sure you aren't just lucky!"
+                      }
+                    ]
+                  },
+                  "start": [
+                    {
+                      "character": "YEUNG",
+                      "text": "If predicting doesn't go well, go back with your Venture Pad and practice with a visible drake."
+                    }
+                  ]
+                },
+                "id": "allele-targetMatch-hidden-harderTraits",
+                "name": "Challenge 6.1.3",
+                "room": "simroom"
+              },
+              {
+                "about": {
+                  "description": "Students match a target drake by selecting alleles from a pulldown menu. The drake that the student is creating is visible to the student while they are manipulating the alleles. The manipulable alleles are limited to tail, nose spike, and deep/faded color.",
+                  "tip": "Students may not notice that the neck flap only appears on male drakes. Students will only receive a blue crystal if they create the drake in the fewest moves possible.",
+                  "type": "Hidden Drake Match"
+                },
+                "dialog": {
+                  "end": {
+                    "failure": [
+                      {
+                        "character": "YEUNG",
+                        "text": "Sorry Cadet, too many moves to earn a crystal. Try again!"
+                      }
+                    ],
+                    "success": [
+                      {
+                        "character": "YEUNG",
+                        "text": "Keep working for the blue crystals, we need them!"
+                      }
+                    ]
+                  },
+                  "start": [
+                    {
+                      "character": "YEUNG",
+                      "text": "Think it through before hatching, and you'll fly right through this. "
+                    }
+                  ]
+                },
+                "id": "allele-targetMatch-hidden-harderTraits2",
+                "name": "Challenge 6.1.4",
+                "room": "simroom"
+              }
+            ],
+            "dialog": {
+              "end": [
+                {
+                  "character": "YEUNG",
+                  "text": "You've gained experience in predicting the traits."
+                },
+                {
+                  "character": "YEUNG",
+                  "text": "Time to sort drake eggs based on the chromoscope readings."
+                }
+              ],
+              "middle": [
+                {
+                  "character": "WEAVER",
+                  "text": "Welcome back! Open your VenturePad to get started."
+                }
+              ],
+              "start": [
+                {
+                  "character": "YEUNG",
+                  "text": "And now for something completely different! New traits, and tricky ones at that, are next."
+                }
+              ]
+            },
+            "name": "Mission 6.1"
+          },
+          {
+            "challenges": [
+              {
+                "about": {
+                  "description": "Students must sort eggs into appropriate baskets based on their tails.",
+                  "tip": "",
+                  "type": "Egg Drop"
+                },
+                "dialog": {
+                  "end": {
+                    "failure": [
+                      {
+                        "character": "NETANYA",
+                        "text": "You got there, but you need to sort more drakes correctly to earn a crystal."
+                      }
+                    ],
+                    "success": [
+                      {
+                        "character": "NETANYA",
+                        "text": "Thanks, now we'll see which ones fly best!"
+                      }
+                    ]
+                  },
+                  "start": [
+                    {
+                      "character": "NETANYA",
+                      "text": "Cadet! We need which drake tails are best for flying, and I say that kinked tails are best— for evasive maneuvers."
+                    },
+                    {
+                      "character": "HERRERA",
+                      "text": "Maybe so, but short tails allow for quick dives, and long tails for the smoothest flights."
+                    },
+                    {
+                      "character": "NETANYA",
+                      "text": "We need to know which eggs will hatch what kind of tail. You're on, Cadet. "
+                    }
+                  ]
+                },
+                "id": "eggDrop-tail",
+                "name": "Challenge 6.2.1",
+                "room": "hatchery"
+              },
+              {
+                "about": {
+                  "description": "Students must sort eggs into appropriate baskets based on their nose spikes.",
+                  "tip": "",
+                  "type": "Egg Drop"
+                },
+                "dialog": {
+                  "end": {
+                    "failure": [
+                      {
+                        "character": "NETANYA",
+                        "text": "You got there, but you need to sort more drakes correctly to earn a crystal."
+                      }
+                    ],
+                    "success": [
+                      {
+                        "character": "NETANYA",
+                        "text": "And the answer is... when you only have one chromosome of the pair! Males are special that way!"
+                      }
+                    ]
+                  },
+                  "start": [
+                    {
+                      "character": "NETANYA",
+                      "text": "Here's a riddle for you: when is just one recessive allele enough to produce a trait?"
+                    },
+                    {
+                      "character": "HERRERA",
+                      "text": "Good question! Let's scope some eggs to find out."
+                    }
+                  ]
+                },
+                "id": "eggDrop-noseSpike",
+                "name": "Challenge 6.2.2",
+                "room": "hatchery"
+              }
+            ],
+            "dialog": {
+              "end": [
+                {
+                  "character": "HERRERA",
+                  "text": "Thanks... I think...?"
+                }
+              ],
+              "middle": [
+                {
+                  "character": "WEAVER",
+                  "text": "Welcome back! Open your VenturePad to get started."
+                }
+              ],
+              "start": [
+                {
+                  "character": "NETANYA",
+                  "text": "Open your Venture Pad, we need to head to the hatchery! "
+                }
+              ]
+            },
+            "name": "Mission 6.2"
+          },
+          {
+            "challenges": [
+              {
+                "about": {
+                  "description": "Students click the Generate Gametes button to see how gametes are randomly assembled. The game creates one egg and three sperm in Challenge 5 and three eggs and one sperm in Challenge 6. In both cases, the student must select the sperm or egg that, when combined with the other gamete, will create the target drake.",
+                  "type": "Gamete Selector"
+                },
+                "dialog": {
+                  "end": {
+                    "failure": [
+                      {
+                        "character": "NETANYA",
+                        "text": "You did it, but you took too many tries. Let's try this one again!"
+                      }
+                    ],
+                    "success": [
+                      {
+                        "character": "NETANYA",
+                        "text": "Are you ready for a more difficult task?"
+                      }
+                    ]
+                  },
+                  "start": [
+                    {
+                      "character": "NETANYA",
+                      "text": "Eggs and sperm are key to understanding these more complicated traits."
+                    }
+                  ]
+                },
+                "id": "gamete-selectSpermEgg-harderTraits",
+                "name": "Challenge 6.3.1",
+                "room": "hatchery"
+              },
+              {
+                "about": {
+                  "description": "Students click the Generate Gametes button to see how gametes are randomly assembled. The game creates one egg and three sperm in Challenge 5 and three eggs and one sperm in Challenge 6. In both cases, the student must select the sperm or egg that, when combined with the other gamete, will create the target drake.",
+                  "type": "Gamete Selector"
+                },
+                "dialog": {
+                  "end": {
+                    "failure": [
+                      {
+                        "character": "NETANYA",
+                        "text": "Sorry, no crystal— try again!"
+                      }
+                    ],
+                    "success": [
+                      {
+                        "character": "NETANYA",
+                        "text": "You are on track to understand X chromosome inheritance as well as a gene with 3 alleles."
+                      },
+                      {
+                        "character": "NETANYA",
+                        "text": "If you need more practice, just use your Venture Pad to do some review!"
+                      }
+                    ]
+                  },
+                  "start": [
+                    {
+                      "character": "NETANYA",
+                      "text": "OK, Cadet, here you'll work on both parents at the same time, and with plenty of alleles!"
+                    }
+                  ]
+                },
+                "id": "gamete-selectSpermEgg-harderTraits-bothParents",
+                "name": "Challenge 6.3.2",
+                "room": "hatchery"
+              }
+            ],
+            "dialog": {
+              "end": [
+                {
+                  "character": "NETANYA",
+                  "text": "Sure you're up for this?"
+                }
+              ],
+              "middle": [
+                {
+                  "character": "WEAVER",
+                  "text": "Welcome back! Open your VenturePad to get started."
+                }
+              ],
+              "start": [
+                {
+                  "character": "YEUNG",
+                  "text": "Time to understand how faded color, spikes, and tails are inherited. Open your Venture Pad and head to the Hatchery."
+                }
+              ]
+            },
+            "name": "Mission 6.3"
+          },
+          {
+            "challenges": [
+              {
+                "about": {
+                  "description": "Students click the Generate Gametes button to see how gametes are randomly assembled. The game creates one egg and three sperm in Challenge 5 and three eggs and one sperm in Challenge 6. In both cases, the student must select the sperm or egg that, when combined with the other gamete, will create the target drake.",
+                  "type": "Gamete Selector"
+                },
+                "dialog": {
+                  "end": {
+                    "failure": [
+                      {
+                        "character": "RAJPUT",
+                        "text": "You did it, but you took too many tries. Let's try this one again!"
+                      }
+                    ],
+                    "success": [
+                      {
+                        "character": "NETANYA",
+                        "text": "Are you keeping your eye on the father's X chromosome?!"
+                      }
+                    ]
+                  },
+                  "start": [
+                    {
+                      "character": "RAJPUT",
+                      "text": "Welcome, Cadet! Look carefully at the alleles in order to succeed."
+                    }
+                  ]
+                },
+                "id": "clutch-5drakes-harderTraits-bothParents",
+                "name": "Challenge 6.4.1",
+                "room": "breedingbarn"
+              },
+              {
+                "about": {
+                  "description": "Students click the Generate Gametes button to see how gametes are randomly assembled. The game creates one egg and three sperm in Challenge 5 and three eggs and one sperm in Challenge 6. In both cases, the student must select the sperm or egg that, when combined with the other gamete, will create the target drake.",
+                  "type": "Gamete Selector"
+                },
+                "dialog": {
+                  "end": {
+                    "failure": [
+                      {
+                        "character": "RAJPUT",
+                        "text": "You did it, but you took too many tries. Let's try this one again!"
+                      }
+                    ],
+                    "success": [
+                      {
+                        "character": "RAJPUT",
+                        "text": "Here comes the hard part. "
+                      }
+                    ]
+                  },
+                  "start": [
+                    {
+                      "character": "RAJPUT",
+                      "text": "Let's try this again— but with some more traits, too."
+                    }
+                  ]
+                },
+                "id": "clutch-5drakes-harderTraits-bothParents2",
+                "name": "Challenge 6.4.2",
+                "room": "breedingbarn"
+              }
+            ],
+            "dialog": {
+              "end": [
+                {
+                  "character": "RAJPUT",
+                  "text": "We're working with complicated inheritance patterns, Cadet. Keep at it!"
+                }
+              ],
+              "middle": [
+                {
+                  "character": "WEAVER",
+                  "text": "Welcome back! Open your VenturePad to get started."
+                }
+              ],
+              "start": [
+                {
+                  "character": "YEUNG",
+                  "text": "Inheritance can be tricky when dealing with the X and Y chromosomes, Cadet. Open your Venture Pad and head to the Breeding Barn."
+                }
+              ]
+            },
+            "name": "Mission 6.4"
+          },
+          {
+            "challenges": [
+              {
+                "about": {
+                  "description": "Students use Test Cross to determine parents genotype",
+                  "type": "Test Cross"
+                },
+                "dialog": {
+                  "end": {
+                    "failure": [
+                      {
+                        "character": "RAJPUT",
+                        "text": "You did it, but you took too many tries. Let's try this one again!"
+                      }
+                    ],
+                    "success": [
+                      {
+                        "character": "RAJPUT",
+                        "text": "While we are waiting for the outcome of the sneak attack, your work can help guard these drakes from extinction."
+                      }
+                    ]
+                  },
+                  "start": [
+                    {
+                      "character": "RAJPUT",
+                      "text": "With all you have learned, we think you are up to this task."
+                    }
+                  ]
+                },
+                "id": "test-cross-nosespike-dilute-tail-1",
+                "name": "Challenge 6.5.1",
+                "room": "breedingbarn"
+              },
+              {
+                "about": {
+                  "description": "Students use Test Cross to determine parents genotype",
+                  "type": "Test Cross"
+                },
+                "dialog": {
+                  "end": {
+                    "failure": [
+                      {
+                        "character": "RAJPUT",
+                        "text": "Sorry— too many moves for a crystal. Try again!"
+                      }
+                    ],
+                    "success": [
+                      {
+                        "character": "RAJPUT",
+                        "text": "Are you ready for the most difficult task?"
+                      }
+                    ]
+                  },
+                  "start": [
+                    {
+                      "character": "RAJPUT",
+                      "text": "Make sure you understand how each trait works, or breeding these drakes won't help much."
+                    }
+                  ]
+                },
+                "id": "test-cross-nosespike-dilute-tail-2",
+                "name": "Challenge 6.5.2",
+                "room": "breedingbarn"
+              },
+              {
+                "about": {
+                  "description": "Students use Test Cross to determine parents genotype",
+                  "type": "Test Cross"
+                },
+                "dialog": {
+                  "end": {
+                    "failure": [
+                      {
+                        "character": "RAJPUT",
+                        "text": "You did it, but you took too many tries. Let's try this one again!"
+                      }
+                    ],
+                    "success": [
+                      {
+                        "character": "RAJPUT",
+                        "text": "Good job!"
+                      },
+                      {
+                        "character": "WEAVER",
+                        "text": "Cadet, Herrera's dragon pilots were successful in the sneak attack!"
+                      },
+                      {
+                        "character": "HATCH",
+                        "text": "Yes, and you played a big part in this victory for drakes and dragons!"
+                      },
+                      {
+                        "character": "YEUNG",
+                        "text": "Cadet, it's been a pleasure. Take care out there. "
+                      },
+                      {
+                        "character": "HERRERA",
+                        "text": "Seriously, Cadet, It's been great having you. We have to bid you farewell for now. Just remember, when you come across genetics, think of Geniventure! "
+                      }
+                    ]
+                  },
+                  "start": [
+                    {
+                      "character": "RAJPUT",
+                      "text": "This is it, Cadet. It's time to determine the genotypes of the remaining engangered drakes."
+                    }
+                  ]
+                },
+                "id": "test-cross-nosespike-dilute-tail-3",
+                "name": "Challenge 6.5.3",
+                "room": "breedingbarn"
+              }
+            ],
+            "dialog": {
+              "end": [
+                {
+                  "character": "HERRERA",
+                  "text": "K, thanks! Bye!."
+                }
+              ],
+              "middle": [
+                {
+                  "character": "WEAVER",
+                  "text": "Welcome back! Open your VenturePad to get started."
+                }
+              ],
+              "start": [
+                {
+                  "character": "YEUNG",
+                  "text": "This is your toughest challenge yet. It will take all you have learned about drakes to solve it."
+                }
+              ]
+            },
+            "name": "Mission 6.5"
+          }
+        ]
+      }
+    ]
+  }
+}

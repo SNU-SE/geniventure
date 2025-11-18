@@ -1,8 +1,8 @@
 import translations from './lang';
 
-const defaultLang = "en_us",
+const defaultLang = "ko_kr",  // 기본 언어를 한국어로 설정
       varRegExp = /\$\{\s*(\d+)\s*\}/g,
-      error = "** TRANSLATION ERROR **";
+      error = "** 번역 오류 **";
 
 const translateString = (key, lang) => translations[lang] && translations[lang][key] || key;
 
